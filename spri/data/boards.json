@@ -1,0 +1,62 @@
+{
+  "magazine": {
+    "url": "https://spri.kr/posts?code=magazine",
+    "name": "- SW중심사회"
+  },
+  "AI-Brief": {
+    "url": "https://spri.kr/posts?code=AI-Brief",
+    "name": "- AI 브리프"
+  },
+  "data_all": {
+    "url": "https://spri.kr/posts?code=data_all",
+    "name": "연구"
+  },
+  "data_all|research": {
+    "url": "https://spri.kr/posts?code=data_all&board_type=research",
+    "name": "연구보고서 보기"
+  },
+  "data_all|issue_reports": {
+    "url": "https://spri.kr/posts?code=data_all&board_type=issue_reports",
+    "name": ""
+  },
+  "data_all|advice": {
+    "url": "https://spri.kr/posts?code=data_all&board_type=advice",
+    "name": ""
+  },
+  "data_all|ai_brief": {
+    "url": "https://spri.kr/posts?code=data_all&board_type=ai_brief",
+    "name": ""
+  },
+  "annual_reports": {
+    "url": "https://spri.kr/posts?code=annual_reports",
+    "name": "- 산업연간보고서"
+  },
+  "sw_reports": {
+    "url": "https://spri.kr/posts?code=sw_reports",
+    "name": "- 승인통계보고서"
+  },
+  "archive": {
+    "url": "https://spri.kr/posts?code=archive",
+    "name": "- 이전 간행물"
+  },
+  "conference": {
+    "url": "https://spri.kr/posts?code=conference&flg=1",
+    "name": "행사"
+  },
+  "forum": {
+    "url": "https://spri.kr/posts?code=forum",
+    "name": "포럼"
+  },
+  "speech": {
+    "url": "https://spri.kr/posts?code=speech",
+    "name": "세미나"
+  },
+  "notice": {
+    "url": "https://spri.kr/posts?code=notice",
+    "name": "- 공지사항"
+  },
+  "open_release": {
+    "url": "https://spri.kr/posts?code=open_release",
+    "name": "- 정보공개"
+  }
+}
