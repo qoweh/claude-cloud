@@ -341,6 +341,46 @@ def write_lists(boards, result, details=None):
 NOISE = ("공유 열기", "글자크기", "PDF 다운로드", "HTML 보기", "e-book 보기", "목록")
 
 
+def toc_from_lines(lines):
+    """AI 브리프 목차의 기사 제목을 뽑는다.
+
+    2024년 이후 호는 '▹ 기사', 2023년 호는 'ㅇ 기사' 형식이다. 본문이 '목차'로
+    시작하는 글(AI 브리프와 그 특집)만 보는데, 연구보고서 본문도 'ㅇ'를 글머리로 쓰기 때문이다.
+    기사 목록 없이 '1. 장 제목'만 있는 특집호는 장 제목을 목차로 쓴다.
+    """
+    toc = [l.lstrip("▹▸ ").strip() for l in lines if l.startswith(("▹", "▸"))]
+    if toc or not lines or lines[0] != "목차":
+        return toc
+    toc = [l[1:].strip() for l in lines if re.match(r"^[ㅇ○]\s", l)]
+    if not toc:
+        toc = [re.sub(r"^\d+\.\s*", "", l) for l in lines if re.match(r"^\d+\.\s", l)]
+        # 2022년 호처럼 '국내외 정책' 같은 섹션 이름만 있으면 목차로 치지 않는다
+        if all(t in SECTION_NAMES for t in toc):
+            toc = []
+    return toc
+
+
+def magazine_toc(lines):
+    """월간 SW중심사회 옛 호: '칼럼 / COLUMN / 기사 제목…' 식으로 섹션 라벨과 기사 제목이 섞여 있다.
+
+    영문 대문자 라벨과 그 앞의 한글 라벨, 끝의 '월간SW중심사회 …' 줄을 빼면 기사 제목만 남는다.
+    """
+    toc = []
+    for i, l in enumerate(lines):
+        nxt = lines[i + 1] if i + 1 < len(lines) else ""
+        if re.fullmatch(r"[A-Z][A-Z &'·/-]+", l) or re.fullmatch(r"[A-Z][A-Z &'·/-]+", nxt):
+            continue
+        if l.startswith("월간SW중심사회") or l.startswith("월간 SW중심사회"):
+            continue
+        toc.append(l)
+    return toc
+
+
+SECTION_NAMES = {"국내외 정책", "기업·시장 동향", "고용·인력 동향", "기술 동향", "기술동향",
+                 "기술·연구 동향", "정책·법제", "기업·산업", "기술·연구", "인력·교육",
+                 "연구 개발 부문", "인공지능 기술 성능", "AI 기술윤리", "경제와 교육", "AI정책 및 거버넌스"}
+
+
 def parse_detail(html, url):
     soup = soup_of(html)
     for t in soup(["script", "style", "noscript"]):
@@ -383,7 +423,7 @@ def parse_detail(html, url):
     content = [l for l in lines[start:end] if l not in NOISE]
 
     # 목차: AI 브리프의 '▹ 기사 제목', 매거진의 다운로드 링크 제목
-    toc = [l.lstrip("▹▸•·- ").strip() for l in content if l.startswith(("▹", "▸"))]
+    toc = toc_from_lines(content)
     attachments = []
     seen = set()
     for a in soup.find_all(["a", "button"]):
@@ -421,6 +461,8 @@ def fetch_detail(p, delay):
         return None
     d = parse_detail(html, url)
     d["list_title"], d["category"], d["boards"] = p["title"], p["category"], p["boards"]
+    if not d["toc"] and "magazine" in p["boards"]:
+        d["toc"] = magazine_toc(d["text"].split("\n"))
     d["date"] = d["date"] or p["date"]
     return d
 
@@ -474,8 +516,28 @@ def main():
     ap.add_argument("--details-limit", type=int, default=0, help="상세를 이만큼만 (테스트)")
     ap.add_argument("--workers", type=int, default=1, help="상세를 동시에 받을 개수")
     ap.add_argument("--refetch-empty", action="store_true", help="첨부가 비어 있는 상세를 다시 받기")
+    ap.add_argument("--rebuild-toc", action="store_true",
+                    help="저장된 본문으로 목차를 다시 계산하고 details.jsonl 의 중복 줄을 정리")
     args = ap.parse_args()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    if args.rebuild_toc:
+        rows = load_details()
+        changed = 0
+        for d in rows.values():
+            lines = d["text"].split("\n")
+            toc = toc_from_lines(lines) or [
+                a["label"] for a in d["attachments"] if a["label"] and a["label"] not in ("PDF 다운로드", "다운받기")]
+            if not toc and "magazine" in d.get("boards", []):
+                toc = magazine_toc(lines)
+            changed += toc != d["toc"]
+            d["toc"] = toc
+        with open(OUT_DIR / "details.jsonl", "w", encoding="utf-8") as f:
+            for d in rows.values():
+                f.write(json.dumps(d, ensure_ascii=False) + "\n")
+        write_details_csv()
+        print(f"목차 다시 계산: {len(rows)}건 중 {changed}건 바뀜")
+        return
 
     if args.details_only:
         boards = json.loads((OUT_DIR / "boards.json").read_text())
