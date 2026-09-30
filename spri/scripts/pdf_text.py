@@ -11,7 +11,10 @@ PDF 와 텍스트는 spri/cache/ 에 두고 커밋하지 않는다.
     python3 spri/scripts/pdf_text.py search "RAG|검색\\s?증강" --context 1
     python3 spri/scripts/pdf_text.py search "에이전트|agent" --min 5
 
+    python3 spri/scripts/pdf_text.py fetch --ids 21804,13515 --files 23864,23877
+
 fetch 는 게시물마다 첫 번째 PDF 첨부('PDF 다운로드' 버튼 우선)만 받는다.
+--files 로 준 첨부는 file_<번호>.txt 로 따로 저장한다.
 search 는 게시물별 일치 수를 세고, 일치 수 순으로 앞뒤 문맥을 보여 준다.
 """
 import argparse
@@ -72,11 +75,12 @@ def pdf_to_text(content):
     return "".join(pages), len(reader.pages)
 
 
-def fetch_one(d, delay):
-    out = CACHE / f"{d['id']}.txt"
+def fetch_one(d, delay, att=None):
+    """게시물의 대표 PDF, 또는 att 로 지정한 첨부 하나(매거진 기사별 PDF 등)를 받는다."""
+    out = CACHE / (f"file_{att['file_id']}.txt" if att else f"{d['id']}.txt")
     if out.exists():
         return d["id"], "cached", 0
-    att = pick_pdf(d)
+    att = att or pick_pdf(d)
     if not att:
         return d["id"], "no-attachment", 0
     time.sleep(delay)
@@ -95,7 +99,8 @@ def fetch_one(d, delay):
         text, n = pdf_to_text(r.content)
     except Exception as e:
         return d["id"], f"parse-failed {type(e).__name__}", 0
-    header = f"# {d['id']} {d['date']} {d.get('title') or d.get('list_title')}\n# file {att['file_id']} {n} pages\n"
+    title = att["label"] if att["label"] not in ("PDF 다운로드", "다운받기") else (d.get("title") or d.get("list_title"))
+    header = f"# {d['id']} {d['date']} {title}\n# file {att['file_id']} {n} pages\n"
     out.write_text(header + text)
     return d["id"], "ok", n
 
@@ -103,15 +108,21 @@ def fetch_one(d, delay):
 def cmd_fetch(args):
     CACHE.mkdir(parents=True, exist_ok=True)
     rows = load_details()
-    boards = set(args.boards.split(","))
-    todo = [d for d in rows.values()
-            if d["date"] >= args.since and boards & set(d.get("boards", []))
-            and not any(b.startswith(("notice",)) for b in d.get("boards", []))]
-    todo.sort(key=lambda d: d["date"], reverse=True)
+    if args.ids or args.files:
+        todo = [(rows[i], None) for i in args.ids.split(",") if i] if args.ids else []
+        for fid in filter(None, (args.files or "").split(",")):
+            owner = next((d, a) for d in rows.values() for a in d["attachments"] if a["file_id"] == fid)
+            todo.append(owner)
+    else:
+        boards = set(args.boards.split(","))
+        todo = [(d, None) for d in rows.values()
+                if d["date"] >= args.since and boards & set(d.get("boards", []))
+                and not any(b.startswith(("notice",)) for b in d.get("boards", []))]
+        todo.sort(key=lambda x: x[0]["date"], reverse=True)
     print(f"대상 {len(todo)}건 → {CACHE}")
     stats = {}
     with ThreadPoolExecutor(max_workers=args.workers) as ex:
-        futs = [ex.submit(fetch_one, d, args.delay) for d in todo]
+        futs = [ex.submit(fetch_one, d, args.delay, att) for d, att in todo]
         for i, fut in enumerate(as_completed(futs), 1):
             pid, status, n = fut.result()
             key = status.split()[0]
@@ -154,6 +165,8 @@ def main():
     f.add_argument("--boards", default="data_all,AI-Brief")
     f.add_argument("--workers", type=int, default=3)
     f.add_argument("--delay", type=float, default=0.7)
+    f.add_argument("--ids", help="게시물 번호 목록(쉼표). 주면 --since/--boards 는 무시")
+    f.add_argument("--files", help="첨부 번호 목록(쉼표). 매거진 기사별 PDF 처럼 특정 첨부만 받을 때")
     s = sub.add_parser("search")
     s.add_argument("pattern")
     s.add_argument("--min", type=int, default=1, help="게시물당 최소 일치 수")
