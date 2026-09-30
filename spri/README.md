@@ -12,14 +12,15 @@
 
 ```bash
 pip install requests beautifulsoup4 lxml
-python3 spri/scripts/crawl_spri.py --details       # 목록 + 상세 전체 수집 (약 1시간 반)
+python3 spri/scripts/crawl_spri.py --details --workers 3   # 목록 + 상세 전체 수집 (약 45분)
 python3 spri/scripts/crawl_spri.py                 # 목록만 (약 20분)
-python3 spri/scripts/crawl_spri.py --details-only  # 저장된 목록으로 상세만 (끊긴 곳부터 이어받음)
+python3 spri/scripts/crawl_spri.py --details-only --workers 3                  # 저장된 목록으로 상세만 (끊긴 곳부터 이어받음)
+python3 spri/scripts/crawl_spri.py --details-only --workers 3 --refetch-empty  # 첨부가 빈 상세만 다시 받기
 python3 spri/scripts/crawl_spri.py --max-pages 2 --details --details-limit 10   # 테스트
 python3 spri/scripts/find_topics.py                # 주제별 후보 뽑기
 ```
 
-요청 사이에 0.7초씩 쉰다(`--delay`). spri.kr이 가끔 연결을 끊지만 재시도로 처리된다.
+요청 사이에 0.7초씩 쉰다(`--delay`). 상세는 `--workers`만큼 동시에 받는다(3이면 분당 약 100건). spri.kr이 가끔 연결을 끊지만 재시도로 처리된다.
 
 ## 데이터 파일 (`data/`)
 
@@ -66,4 +67,5 @@ python3 spri/scripts/find_topics.py                # 주제별 후보 뽑기
 - 목록은 `.com_list_box` 안의 `li`만 읽는다. 모든 페이지 하단의 "개인정보처리방침" 링크(게시물 23713)가 게시물처럼 보이기 때문이다.
 - 간행물 게시판은 제목이 표지 이미지의 `alt`에 있고, 날짜는 `2026년09월호`처럼 월까지만 있다. 정확한 날짜는 상세에서 채운다.
 - 페이지 파라미터는 게시판마다 `data_page` 또는 `page`이다. 첫 페이지의 페이지 링크에서 이름과 마지막 번호를 읽는다.
-- 첨부는 `file_down('번호')`, `/download/번호` 링크, `data-down` 속성(포럼 발표자료) 세 가지 형태로 나온다.
+- 첨부는 `file_down('번호')`, `/download/번호` 링크, `data-down` 속성(포럼 발표자료) 세 가지 형태로 나온다. `file_down(' 23065')`처럼 번호 앞에 공백이 있는 글도 있다.
+- 2020년 무렵 월간 SW중심사회에서 옮겨 온 산업/정책 동향 글 일부는 본문이 이미지라 본문 텍스트가 "월간SW중심사회" 한 줄뿐이다. 내용은 첨부 PDF에 있다.
