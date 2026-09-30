@@ -1,0 +1,350 @@
+﻿id,date,category,boards,title,total,topics,main_topic,keywords,url
+23990,2026-05-18,연구보고서,data_all; data_all|research; data_all|flg1,글로벌 AI 경쟁력 확보를 위한 오픈소스AI 활성화 방안,61,AI 개발·코딩(52); LLM·생성형 AI(7); AI 안전·신뢰·평가(1); AI 서비스·산업 활용(1),AI 개발·코딩,"LLM·생성형 AI: chatGPT, LLM, 대형 언어, 생성형, 언어 모델; AI 개발·코딩: 개발자, 깃허브, 오픈소스; AI 안전·신뢰·평가: 신뢰; AI 서비스·산업 활용: AI 서비스",https://spri.kr/posts/view/23990
+24024,2026-09-11,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,"에이전틱 AI 시대의 핵심 자원, AX 인재: 현황 진단 및 정책 과제",50,AI 서비스·산업 활용(26); AI 에이전트(22); AI 인재·교육(2),AI 서비스·산업 활용,"AI 에이전트: Agent, agent, 에이전트, 에이전틱; AI 서비스·산업 활용: AI 전환, AX, 인공지능 전환; AI 인재·교육: 인재 양성, 직무",https://spri.kr/posts/view/24024
+24015,2026-08-31,연구보고서,data_all; data_all|research; data_all|flg1,2025년 국내외 인공지능 산업 동향 연구,36,LLM·생성형 AI(8); AI 에이전트(7); AI 안전·신뢰·평가(7); AI 정책·규제(6); AI 인재·교육(4); AI 인프라·데이터(2); AI 서비스·산업 활용(2),LLM·생성형 AI,"AI 에이전트: 에이전트; LLM·생성형 AI: 생성형, 초거대; AI 인프라·데이터: AI 반도체; AI 안전·신뢰·평가: AI 안전, xAI, 설명가능, 신뢰, 안전성; AI 서비스·산업 활용: AI 스타트업; AI 인재·교육: AI 교육, 고용, 인재 양성; AI 정책·규제: AI 거버넌스, AI 기본법, AI 정책, 인공지능 기본법",https://spri.kr/posts/view/24015
+24008,2026-08-06,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,AI 교육 혁신과 AI 융합인재 양성 전략: 해외 대학·교육기관 사례와 시사점,32,AI 인재·교육(29); LLM·생성형 AI(2); AI 서비스·산업 활용(1),AI 인재·교육,"LLM·생성형 AI: generative, 생성형; AI 서비스·산업 활용: AI 활용; AI 인재·교육: AI 교육, AI 인재, 인재 양성",https://spri.kr/posts/view/24008
+24025,2026-09-11,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,AI G3 도약을 위한 국가 AI 인재전략 Shift,27,AI 인재·교육(16); AI 인프라·데이터(5); AI 서비스·산업 활용(3); AI 안전·신뢰·평가(2); AI 개발·코딩(1),AI 인재·교육,"AI 개발·코딩: MLOps; AI 인프라·데이터: AI 반도체, GPU, 데이터센터; AI 안전·신뢰·평가: AI 안전, 신뢰; AI 서비스·산업 활용: AX; AI 인재·교육: AI 교육, AI 인재, 인재양성, 직무",https://spri.kr/posts/view/24025
+24019,2026-09-10,연구보고서,data_all; data_all|research; data_all|flg1,AI인재 성장경로 분석을 통한 AI 최고급 인재 양성 방안,24,AI 인재·교육(20); AI 개발·코딩(3); AI 안전·신뢰·평가(1),AI 인재·교육,"AI 개발·코딩: AI 엔지니어, 오픈소스; AI 안전·신뢰·평가: 신뢰; AI 인재·교육: AI 교육, AI 인재, AI인재, 인재 양성",https://spri.kr/posts/view/24019
+23561,2023-03-13,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,초거대언어모델의 부상과 주요이슈 - ChatGPT의 기술적 특징과 사회적‧산업적 시사점,24,LLM·생성형 AI(24),LLM·생성형 AI,"LLM·생성형 AI: ChatGPT, LLM, 생성AI, 언어모델, 초거대",https://spri.kr/posts/view/23561
+17627,2016-06-13,초청세미나,conference|flg1; speech,이진규 (네이버 개인정보보호 담당 수석 부장) 개인정보보호 이슈,22,AI 정책·규제(22),AI 정책·규제,AI 정책·규제: 개인정보,https://spri.kr/posts/view/17627
+24021,2026-09-10,연구보고서,data_all; data_all|research; data_all|flg1,기업가형 AI 인재 육성 전략 연구,20,AI 인재·교육(19); AI 서비스·산업 활용(1),AI 인재·교육,AI 서비스·산업 활용: AI 스타트업; AI 인재·교육: AI 인재,https://spri.kr/posts/view/24021
+23981,2026-04-30,연구보고서,data_all; data_all|research; data_all|flg1,2025 SW 해외진출 역량강화 정책 연구: 지원사업 및 평가체계 개선 방향을 중심으로,18,AI 안전·신뢰·평가(15); AI 서비스·산업 활용(2); AI 인프라·데이터(1),AI 안전·신뢰·평가,"AI 인프라·데이터: 클라우드; AI 안전·신뢰·평가: 평가 체계, 평가체계; AI 서비스·산업 활용: SaaS",https://spri.kr/posts/view/23981
+23662,2023-11-09,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,생성AI 산업생태계 현황과 과제,18,LLM·생성형 AI(15); AI 인프라·데이터(3),LLM·생성형 AI,"LLM·생성형 AI: GPT, LLM, 생성AI, 초거대; AI 인프라·데이터: AI반도체",https://spri.kr/posts/view/23662
+23285,2021-07-23,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,SW 개발자의 일자리 환경 : 개발자의 직업 가치와 일자리 만족도,18,AI 개발·코딩(9); AI 인재·교육(9),AI 개발·코딩,AI 개발·코딩: 개발자; AI 인재·교육: 일자리,https://spri.kr/posts/view/23285
+23952,2026-02-12,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,오픈소스AI 개념 및 글로벌 오픈소스 모델 동향,15,AI 개발·코딩(15),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/23952
+23815,2025-01-20,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,미국의 AI안전·신뢰성 정책 추진 현황과 시사점,15,AI 안전·신뢰·평가(12); AI 정책·규제(3),AI 안전·신뢰·평가,"AI 안전·신뢰·평가: AI안전, 신뢰; AI 정책·규제: AI 정책",https://spri.kr/posts/view/23815
+23760,2024-07-23,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,해외 AI안전연구소 추진 현황과 시사점,15,AI 안전·신뢰·평가(15),AI 안전·신뢰·평가,"AI 안전·신뢰·평가: AI안전, 신뢰",https://spri.kr/posts/view/23760
+23929,2025-12-03,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,‘기업가형 AI 인재’ 육성의 필요성: AI 강국 도약을 위한 한국형 전략의 출발점,12,AI 인재·교육(9); AI 서비스·산업 활용(3),AI 인재·교육,AI 서비스·산업 활용: AI 스타트업; AI 인재·교육: AI 인재,https://spri.kr/posts/view/23929
+23810,2025-01-07,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,SW 개발자 채용시장의 변화와 생성형 AI의 영향,12,LLM·생성형 AI(6); AI 개발·코딩(6),LLM·생성형 AI,LLM·생성형 AI: 생성형; AI 개발·코딩: 개발자,https://spri.kr/posts/view/23810
+23807,2024-12-30,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,AI 안전의 개념과 범위,12,AI 안전·신뢰·평가(12),AI 안전·신뢰·평가,"AI 안전·신뢰·평가: AI 안전, 신뢰",https://spri.kr/posts/view/23807
+23769,2024-08-20,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,생성형 AI에 의한 소프트웨어 개발자 업무 영향 분석,12,LLM·생성형 AI(6); AI 개발·코딩(6),LLM·생성형 AI,LLM·생성형 AI: 생성형; AI 개발·코딩: 개발자,https://spri.kr/posts/view/23769
+23731,2024-04-29,연구보고서,data_all; data_all|research; data_all|flg1,생성형 AI에 대응한 SW인재양성 정책 방향 연구,12,LLM·생성형 AI(6); AI 인재·교육(6),LLM·생성형 AI,LLM·생성형 AI: 생성형; AI 인재·교육: SW인재,https://spri.kr/posts/view/23731
+23608,2023-06-08,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,생성AI의 부상과 산업의 변화,12,LLM·생성형 AI(12),LLM·생성형 AI,"LLM·생성형 AI: ChatGPT, GPT, 생성AI",https://spri.kr/posts/view/23608
+23270,2021-07-26,연구보고서,data_all; data_all|research; data_all|flg1,오픈소스 활성화를 위한 오픈소스 연구개발 생태계 연구,12,AI 개발·코딩(12),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/23270
+22878,2020-02-27,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,AI 성능개선을 위한 클라우드 GPU 가상화 기술의 현황과 향후방향,12,AI 인프라·데이터(12),AI 인프라·데이터,"AI 인프라·데이터: GPU, 클라우드",https://spri.kr/posts/view/22878
+22665,2019-05-22,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,오픈소스 관련 SW일자리 동향,12,AI 개발·코딩(6); AI 인재·교육(6),AI 개발·코딩,AI 개발·코딩: 오픈소스; AI 인재·교육: 일자리,https://spri.kr/posts/view/22665
+22067,2018-04-30,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,"다가온 멀티 클라우드, 다가올 인터 클라우드",12,AI 인프라·데이터(12),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/22067
+16825,2016-05-26,기타자료,data_all; data_all|ai_brief; data_all|flg1,기업 오픈소스 혁신 전략,12,AI 개발·코딩(12),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/16825
+14096,2016-01-27,기타자료,data_all; data_all|ai_brief; data_all|flg1,온라인 SW교육 활성화 방안,12,AI 인재·교육(12),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/14096
+14081,2016-01-27,기타자료,data_all; data_all|ai_brief; data_all|flg1,초중등 SW교육 표준모델 공청회 (2015.11.14.),12,AI 인재·교육(12),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/14081
+10052,2015-09-22,SPRi칼럼,data_all; data_all|column; data_all|flg1,오픈소스와 클라우드를 활용한 SPRi홈페이지 아키텍처 공개,12,AI 개발·코딩(6); AI 인프라·데이터(6),AI 개발·코딩,AI 개발·코딩: 오픈소스; AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/10052
+23639,2023-09-11,포럼,conference|flg1; forum,"생성AI 빅뱅, 기회인가 위기인가?(결과)",10,LLM·생성형 AI(10),LLM·생성형 AI,"LLM·생성형 AI: LLM, 생성AI",https://spri.kr/posts/view/23639
+8903,2015-08-12,초청세미나,conference|flg1; speech,이지선 (숙명여대 교수) SW교육과 메이커 운동,10,AI 인재·교육(10),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/8903
+23951,2026-02-11,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,AI 실무인재 양성을 위한 국내 교육체계 분석 및 시사점,9,AI 인재·교육(6); LLM·생성형 AI(3),AI 인재·교육,"LLM·생성형 AI: 생성형; AI 인재·교육: AI교육, 인재 양성",https://spri.kr/posts/view/23951
+23877,2025-05-26,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,주요국 AI 인재 양성 및 유치 정책 : 현황 및 시사점,9,AI 인재·교육(9),AI 인재·교육,"AI 인재·교육: AI 인재, 인재 양성",https://spri.kr/posts/view/23877
+23767,2024-08-19,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,글로벌 초거대 AI 모델 현황 분석(2020~2023년),9,LLM·생성형 AI(9),LLM·생성형 AI,LLM·생성형 AI: 초거대,https://spri.kr/posts/view/23767
+23632,2023-08-18,포럼,conference|flg1; forum,"생성AI 빅뱅, 기회인가 위기인가?",9,LLM·생성형 AI(9),LLM·생성형 AI,"LLM·생성형 AI: LLM, 생성AI",https://spri.kr/posts/view/23632
+23121,2020-12-10,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,Computing Curricula 2020을 통해 본 미래 초·중등 SW·AI 교육의 방향,9,AI 인재·교육(9),AI 인재·교육,"AI 인재·교육: AI 교육, SW교육, SW인재",https://spri.kr/posts/view/23121
+22901,2020-02-10,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,오픈소스 확산에 따른 엔터프라이즈 오픈소스의 부상,9,AI 개발·코딩(9),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/22901
+22559,2018-12-24,초청세미나,conference|flg1; speech,박병원(한국경영자총연합회) 고용 우선의 경제운용,9,AI 인재·교육(9),AI 인재·교육,"AI 인재·교육: 고용, 일자리",https://spri.kr/posts/view/22559
+22524,2018-12-10,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,클라우드 가상화 기술의 변화 - 컨테이너 기반의 클라우드 가상화와 DevOps,9,AI 인프라·데이터(9),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/22524
+22459,2018-11-02,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,토큰 경제와 블록체인의 미래,9,모델 학습·튜닝·추론(9),모델 학습·튜닝·추론,모델 학습·튜닝·추론: 토큰,https://spri.kr/posts/view/22459
+22049,2018-04-23,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,유망 SW분야의 미래일자리 전망,9,AI 인재·교육(6); AI 인프라·데이터(3),AI 인재·교육,AI 인프라·데이터: 클라우드; AI 인재·교육: 일자리,https://spri.kr/posts/view/22049
+13668,2016-01-25,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,미래 디지털 인재 양성을 위한 온라인 SW교육 방안,9,AI 인재·교육(9),AI 인재·교육,"AI 인재·교육: SW교육, 인재 양성",https://spri.kr/posts/view/13668
+11620,2015-11-27,SPRi칼럼,data_all; data_all|column; data_all|flg1,오픈소스 활성화를 위한 SPRi홈페이지 소스공개,9,AI 개발·코딩(9),AI 개발·코딩,"AI 개발·코딩: GitHub, 오픈소스",https://spri.kr/posts/view/11620
+4536,2015-03-25,기타자료,data_all; data_all|ai_brief; data_all|flg1,"[한수진의 SBS 전망대] ""'코딩' 초등 정규과목 포함 논란? 영국은 5살부터 의무교육""",9,AI 개발·코딩(6); AI 인재·교육(3),AI 개발·코딩,AI 개발·코딩: 코딩; AI 인재·교육: SW교육,https://spri.kr/posts/view/4536
+3308,2015-02-27,SPRi칼럼,data_all; data_all|column; data_all|flg1,8살 아이들이 코딩을 배워야하는 이유 (Why your 8-year-old should be coding),9,AI 개발·코딩(9),AI 개발·코딩,"AI 개발·코딩: coding, 코딩",https://spri.kr/posts/view/3308
+2254,2015-02-16,연구보고서,data_all; data_all|research; data_all|flg1,SW개발자의 권리보호 및 관련산업 진흥을 위한 법‧제도 연구 – 저작권법 중심으로,9,AI 정책·규제(6); AI 개발·코딩(3),AI 정책·규제,AI 개발·코딩: 개발자; AI 정책·규제: 저작권,https://spri.kr/posts/view/2254
+22382,2018-09-20,초청세미나,conference|flg1; speech,장정훈(와이즈넛) 인공지능 기반의 챗봇 기술개발과 시장동향,8,AI 서비스·산업 활용(8),AI 서비스·산업 활용,AI 서비스·산업 활용: 챗봇,https://spri.kr/posts/view/22382
+24020,2026-09-10,연구보고서,data_all; data_all|research; data_all|flg1,해외 거주 디지털 인재 확보 및 활용을 위한 정책 방안 연구,7,AI 안전·신뢰·평가(5); AI 인재·교육(2),AI 안전·신뢰·평가,"AI 안전·신뢰·평가: 신뢰, 정렬, 편향; AI 인재·교육: 고용",https://spri.kr/posts/view/24020
+24016,2026-08-31,연구보고서,data_all; data_all|research; data_all|flg1,AI 융합 연구 경쟁력 강화 방안 연구,7,AI 인프라·데이터(3); AI 안전·신뢰·평가(2); LLM·생성형 AI(1); AI 인재·교육(1),AI 인프라·데이터,"LLM·생성형 AI: 생성형; AI 인프라·데이터: AI 반도체, GPU, 컴퓨팅 인프라; AI 안전·신뢰·평가: AI 안전, XAI; AI 인재·교육: 인재 양성",https://spri.kr/posts/view/24016
+23622,2023-07-04,포럼,conference|flg1; forum,생성AI가 촉발하는 SW산업의 변화(결과),7,LLM·생성형 AI(7),LLM·생성형 AI,LLM·생성형 AI: 생성AI,https://spri.kr/posts/view/23622
+22199,2018-05-23,초청세미나,conference|flg1; speech,문성태 (한국항공우주연구원) 실내외 자율 군집 비행 및 오픈소스 기반의 비행 제어 시스템 생태계 소개,7,AI 개발·코딩(7),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/22199
+22094,2018-05-16,초청세미나,conference|flg1; speech,고건 (오픈소스SW재단 이사장) 軍과 OSS,7,AI 개발·코딩(7),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/22094
+16364,2016-05-09,초청세미나,conference|flg1; speech,"신수용 (서울 아산병원, 의생명정보학과 교수) 의료분야의 개인정보 보호 이슈",7,AI 정책·규제(7),AI 정책·규제,AI 정책·규제: 개인정보,https://spri.kr/posts/view/16364
+15547,2016-04-01,초청세미나,conference|flg1; speech,유현곤 (NVIDIA 부장) GPU와 인공지능 성공사례,7,AI 인프라·데이터(7),AI 인프라·데이터,AI 인프라·데이터: GPU,https://spri.kr/posts/view/15547
+3912,2015-03-10,초청세미나,conference|flg1; speech,Jorn Altmann (서울대 기술경영경제정책과정 교수) EU Cloud Trend & Policy,7,AI 인프라·데이터(7),AI 인프라·데이터,"AI 인프라·데이터: Cloud, 클라우드",https://spri.kr/posts/view/3912
+23991,2026-05-26,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,월드 모델: 현실을 이해하는 AI의 진화,6,AI 인프라·데이터(4); AI 에이전트(2),AI 인프라·데이터,"AI 에이전트: agent, 에이전트; AI 인프라·데이터: dataset, 데이터셋, 합성 데이터",https://spri.kr/posts/view/23991
+23957,2026-03-20,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,고급 AI 인재의 기업가정신 현황과 창업 의지 영향요인 분석,6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: AI 인재,https://spri.kr/posts/view/23957
+23946,2026-01-20,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,산업혁신을 이끄는 Vertical SaaS : 시장의 성장과 시사점,6,AI 서비스·산업 활용(6),AI 서비스·산업 활용,AI 서비스·산업 활용: SaaS,https://spri.kr/posts/view/23946
+23870,2025-04-30,연구보고서,data_all; data_all|research; data_all|flg1,SW개발자 채용 변화 전망과 생성형 AI,6,LLM·생성형 AI(3); AI 개발·코딩(3),LLM·생성형 AI,LLM·생성형 AI: 생성형; AI 개발·코딩: 개발자,https://spri.kr/posts/view/23870
+23822,2025-02-14,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,글로벌 초거대 AI 모델 현황 분석(2024년 조사),6,LLM·생성형 AI(6),LLM·생성형 AI,LLM·생성형 AI: 초거대,https://spri.kr/posts/view/23822
+23803,2024-12-19,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,AI인프라에서 AI서비스로 : SW기업의 AI도입 모델과 신서비스 모델의 탐색,6,AI 서비스·산업 활용(6),AI 서비스·산업 활용,"AI 서비스·산업 활용: AI도입, AI서비스",https://spri.kr/posts/view/23803
+23783,2024-10-31,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,AI 위험 유형 및 사례 분석,6,AI 안전·신뢰·평가(6),AI 안전·신뢰·평가,"AI 안전·신뢰·평가: AI 안전, 신뢰",https://spri.kr/posts/view/23783
+23782,2024-10-29,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,오픈소스 생태계 성장과 전문기업의 확산,6,AI 개발·코딩(6),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/23782
+23764,2024-08-06,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,유럽연합 인공지능법(EU AI Act)의 주요내용 및 시사점,6,AI 정책·규제(6),AI 정책·규제,"AI 정책·규제: EU AI, 인공지능법",https://spri.kr/posts/view/23764
+23723,2024-04-29,연구보고서,data_all; data_all|research; data_all|flg1,글로벌 AI 신뢰성 정책 동향 분석,6,AI 안전·신뢰·평가(6),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/23723
+23718,2024-04-29,연구보고서,data_all; data_all|research; data_all|flg1,글로벌 오픈소스 기업 현황 및 사업화 성장 요인 분석,6,AI 개발·코딩(6),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/23718
+23653,2023-09-22,연구보고서,data_all; data_all|research; data_all|flg1,공공부문 AI 활용현황 실태조사,6,AI 서비스·산업 활용(6),AI 서비스·산업 활용,AI 서비스·산업 활용: AI 활용,https://spri.kr/posts/view/23653
+23650,2023-09-22,연구보고서,data_all; data_all|research; data_all|flg1,글로벌 AI 신뢰성 정책 동향 연구,6,AI 안전·신뢰·평가(6),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/23650
+23648,2023-09-22,연구보고서,data_all; data_all|research; data_all|flg1,글로벌 오픈소스 기술 생태계 분석 연구,6,AI 개발·코딩(6),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/23648
+23610,2023-06-13,포럼,conference|flg1; forum,생성AI가 촉발하는 SW산업의 변화,6,LLM·생성형 AI(6),LLM·생성형 AI,LLM·생성형 AI: 생성AI,https://spri.kr/posts/view/23610
+23605,2023-05-31,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,"메타버스, 생성AI 엔진을 달다",6,LLM·생성형 AI(6),LLM·생성형 AI,LLM·생성형 AI: 생성AI,https://spri.kr/posts/view/23605
+23557,2023-03-07,SPRi칼럼,data_all; data_all|column; data_all|flg1,개방형 혁신과 글로벌 SaaS 기업으로의 도약,6,AI 서비스·산업 활용(6),AI 서비스·산업 활용,AI 서비스·산업 활용: SaaS,https://spri.kr/posts/view/23557
+23523,2022-11-03,포럼,conference|flg1; forum,디지털주권과 플랫폼형 SaaS,6,AI 서비스·산업 활용(6),AI 서비스·산업 활용,AI 서비스·산업 활용: SaaS,https://spri.kr/posts/view/23523
+23469,2022-07-25,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,"인공지능의 악용 사례, 딥페이크 기술과 과제",6,AI 안전·신뢰·평가(6),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 딥페이크,https://spri.kr/posts/view/23469
+23435,2022-05-24,연구보고서,data_all; data_all|research; data_all|flg1,전략적 오픈소스 역량 확보를 위한 거버넌스 연구,6,AI 개발·코딩(6),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/23435
+23374,2022-02-10,기타자료,data_all; data_all|ai_brief; data_all|flg1,산업계 AI 인력수요 기반의 대학 AI 교육 표준형 교과과정 연구,6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: AI 교육,https://spri.kr/posts/view/23374
+23360,2021-12-14,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,지속 가능한 초·중등 정보(SW·AI) 교육을 위한 정책 진단 : Code.org 연합의 컴퓨터과학교육 정책 진단 프레임으로 본 우리나라 정보교육,6,AI 인재·교육(6),AI 인재·교육,"AI 인재·교육: AI 교육, SW 교육",https://spri.kr/posts/view/23360
+23351,2021-12-13,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,소프트웨어 인재양성 추진 현황과 과제,6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: 인재양성,https://spri.kr/posts/view/23351
+23344,2021-12-06,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,슈퍼프리랜서는 어떻게 탄생하는가?,6,AI 개발·코딩(3); AI 인재·교육(3),AI 개발·코딩,AI 개발·코딩: 개발자; AI 인재·교육: 일자리,https://spri.kr/posts/view/23344
+23299,2021-09-13,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,디지털 신뢰 감독의 필요성 (블록체인 기술 중심으로),6,AI 안전·신뢰·평가(6),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/23299
+23296,2021-09-13,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,설명가능한 인공지능(Explainable AI; XAI) 연구 동향과 시사점 학습이 완료된 딥러닝 모델에 대한 설명을 중심으로,6,AI 안전·신뢰·평가(6),AI 안전·신뢰·평가,"AI 안전·신뢰·평가: XAI, 설명가능",https://spri.kr/posts/view/23296
+23272,2021-07-27,연구보고서,data_all; data_all|research; data_all|flg1,4차 산업혁명 시대의 AI·SW 인재 육성 정책 방안 연구,6,AI 인재·교육(6),AI 인재·교육,"AI 인재·교육: SW 인재, SW교육",https://spri.kr/posts/view/23272
+23293,2021-07-14,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,개방형 클라우드 플랫폼 ‘파스-타(PaaS-TA)’ 동향 및 생태계 활성화,6,AI 인프라·데이터(6),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/23293
+23228,2021-06-22,공지사항,notice,SW개발자 대상 일자리 환경 및 정책 수요 조사 용역,6,AI 개발·코딩(3); AI 인재·교육(3),AI 개발·코딩,AI 개발·코딩: 개발자; AI 인재·교육: 일자리,https://spri.kr/posts/view/23228
+23202,2021-05-03,포럼,conference|flg1; forum,제49회 SPRi 포럼 - 신뢰할 수 있는 AI 구현을 위한 우리 사회의 역할과 과제 (결과),6,AI 안전·신뢰·평가(6),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/23202
+23199,2021-04-21,포럼,conference|flg1; forum,신뢰할 수 있는 AI 구현을 위한 우리 사회의 역할과 과제 (2021.04.29. | 49회),6,AI 안전·신뢰·평가(6),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/23199
+23095,2020-11-19,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,글로벌 오픈소스(공개SW) 생태계와 주요국 정책,6,AI 개발·코딩(6),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/23095
+23053,2020-09-21,공지사항,notice,초중등 SW교육 전문강사 직무 분석 연구 용역,6,AI 인재·교육(6),AI 인재·교육,"AI 인재·교육: SW교육, 직무",https://spri.kr/posts/view/23053
+22963,2020-05-29,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,디지털 전환을 대비하는 기업주도 AI·SW 교육 동향,6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: SW 교육,https://spri.kr/posts/view/22963
+22876,2020-02-25,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,빅데이터로 본 딥페이크(Deepfake) : 가짜와의 전쟁,6,AI 안전·신뢰·평가(6),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 딥페이크,https://spri.kr/posts/view/22876
+22902,2020-02-10,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,美 직업정보네트워크 O*net의 SW직업·직무 최신 개정 동향,6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: 직무,https://spri.kr/posts/view/22902
+22856,2020-01-07,기타자료,data_all; data_all|ai_brief; data_all|flg1,AI 석박사 인재양성 프로그램 확대를 위한 의견 수렴회,6,AI 인재·교육(6),AI 인재·교육,"AI 인재·교육: AI 인재, 인재양성",https://spri.kr/posts/view/22856
+22788,2019-09-24,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,오픈소스 수익화의 확산,6,AI 개발·코딩(6),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/22788
+22776,2019-09-10,포럼,conference|flg1; forum,"디지털전환 시대, 미래 SW인재가 살아남는 법 (2019. 9. 24. | 46회)",6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: SW인재,https://spri.kr/posts/view/22776
+22753,2019-08-19,SPRi칼럼,data_all; data_all|column; data_all|flg1,소프트웨어(SW) 프리랜서 개발자를 위한 정책 제언,6,AI 개발·코딩(6),AI 개발·코딩,AI 개발·코딩: 개발자,https://spri.kr/posts/view/22753
+22664,2019-05-22,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,Stack Overflow의 글로벌 SW개발자 현황 조사 결과 분석,6,AI 개발·코딩(6),AI 개발·코딩,AI 개발·코딩: 개발자,https://spri.kr/posts/view/22664
+22639,2019-04-26,연구보고서,data_all; data_all|research; data_all|flg1,빅데이터 기반 SW일자리 지형 변화 연구,6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/22639
+22634,2019-04-25,연구보고서,data_all; data_all|research; data_all|flg1,국내 클라우드 컴퓨팅 활성화를 위한 정책과 방향,6,AI 인프라·데이터(6),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/22634
+22581,2019-03-05,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,해외 공공 부문의 클라우드 도입 동향,6,AI 인프라·데이터(6),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/22581
+22558,2019-01-25,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,소프트웨어 비즈니스 혁신과 오픈소스,6,AI 개발·코딩(6),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/22558
+22556,2019-01-25,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,엣지 컴퓨팅을 갖춘 클라우드의 급성장,6,AI 인프라·데이터(6),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/22556
+22545,2019-01-15,포럼,conference|flg1; forum,"제4차 산업혁명 시대의 SW교육 혁신, 해법을 찾아서 (2019.1.29. | 41회)",6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/22545
+22538,2018-12-26,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,EU 개인정보보호법 발효 이후 각국의 대응 동향,6,AI 정책·규제(6),AI 정책·규제,AI 정책·규제: 개인정보,https://spri.kr/posts/view/22538
+22536,2018-12-26,SPRi칼럼,data_all; data_all|column; data_all|flg1,초중고 학생들을 위한 SW 교육에 관한 제언,6,AI 인재·교육(6),AI 인재·교육,"AI 인재·교육: SW 교육, SW교육",https://spri.kr/posts/view/22536
+22519,2018-12-05,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,젊은 sw인재의 고민,6,AI 인재·교육(6),AI 인재·교육,"AI 인재·교육: sw인재, SW인재",https://spri.kr/posts/view/22519
+22436,2018-10-26,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,기술 혁신을 위한 오픈소스 활용,6,AI 개발·코딩(6),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/22436
+22433,2018-10-26,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,"혁신적인 SW 인재 양성의 요람 : E ′cole 42, 42 Coding School",6,AI 개발·코딩(3); AI 인재·교육(3),AI 개발·코딩,AI 개발·코딩: Coding; AI 인재·교육: SW 인재,https://spri.kr/posts/view/22433
+22412,2018-10-18,포럼,conference|flg1; forum,"제4차 산업혁명 시대, SW 프리랜서 개발자의 빛과 그림자 (2018.10.30. | 40회)",6,AI 개발·코딩(6),AI 개발·코딩,AI 개발·코딩: 개발자,https://spri.kr/posts/view/22412
+22375,2018-09-20,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,글로벌 클라우드 기업 세일즈포스의 최근 동향과 시사점,6,AI 인프라·데이터(6),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/22375
+22249,2018-08-28,SPRi칼럼,data_all; data_all|column; data_all|flg1,한국의 오픈소스 소프트웨어 정책 제안,6,AI 개발·코딩(6),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/22249
+22244,2018-08-16,포럼,conference|flg1; forum,공공부문의 민간 클라우드 활용 방안 (2018.8.28 | 38회),6,AI 인프라·데이터(6),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/22244
+22236,2018-08-07,기타자료,data_all; data_all|ai_brief; data_all|flg1,공공부문 클라우드 정책의 방향전환,6,AI 인프라·데이터(6),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/22236
+22162,2018-06-30,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,구글과 오라클 간의 자바 API 분쟁 역사 - (2),6,AI 개발·코딩(6),AI 개발·코딩,AI 개발·코딩: API,https://spri.kr/posts/view/22162
+22125,2018-06-11,포럼,conference|flg1; forum,SW 미래 일자리 변화와 우리의 대응 (2018. 6.19 | 37회),6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/22125
+22057,2018-05-02,연구보고서,data_all; data_all|research; data_all|flg1,공공SI 및 클라우드 발주제도 개선방안 연구,6,AI 인프라·데이터(6),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/22057
+21971,2018-02-27,기타자료,data_all; data_all|ai_brief; data_all|flg1,공공부문 민간 클라우드 조달체계 개선방안 연구,6,AI 인프라·데이터(6),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/21971
+21965,2018-01-31,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,윈도우가 없는 도시를 꿈꾼다 : 스페인 바르셀로나의 오픈소스 전면화 프로젝트,6,AI 개발·코딩(6),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/21965
+21935,2017-12-11,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,클라우드 보안의 핵심이슈와 대응책,6,AI 인프라·데이터(6),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/21935
+21929,2017-11-29,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,인터넷상 링크설정의 허용범위와 저작권의 보호,6,AI 정책·규제(6),AI 정책·규제,AI 정책·규제: 저작권,https://spri.kr/posts/view/21929
+21862,2017-08-31,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,"선도적인 SW기업, 오픈소스로 적과의 동침 中",6,AI 개발·코딩(6),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/21862
+21845,2017-07-31,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,해외 민간 SW교육기부활동 동향,6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/21845
+21839,2017-07-31,SPRi칼럼,data_all; data_all|column; data_all|flg1,클라우드 컴퓨팅과 인공지능의 만남,6,AI 인프라·데이터(6),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/21839
+21853,2017-07-12,초청세미나,conference|flg1; speech,Satoshi Sekiguchi (일본산업기술종합연구소 부소장) 일본 ABCI 도입 배경과 운영방안,6,AI 인프라·데이터(6),AI 인프라·데이터,"AI 인프라·데이터: Cloud, 컴퓨팅 인프라, 클라우드",https://spri.kr/posts/view/21853
+21811,2017-06-26,연구보고서,data_all; data_all|research; data_all|flg1,중학교 SW교육 인식 현황과 자유학기제 SW진로특강의 효과성 연구,6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/21811
+21786,2017-05-31,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,트럼프 행정부의 ‘ FCC 개인정보보호 규칙’폐지와 시사점,6,AI 정책·규제(6),AI 정책·규제,AI 정책·규제: 개인정보,https://spri.kr/posts/view/21786
+21758,2017-04-29,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,국내외 현행 공공 클라우드 조달체계 비교와 시사점,6,AI 인프라·데이터(6),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/21758
+21746,2017-04-13,초청세미나,conference|flg1; speech,김영철 (홍익대 전산학과 교수) 소프트웨어 가시화,6,AI 개발·코딩(6),AI 개발·코딩,"AI 개발·코딩: 소프트웨어 공학, 소프트웨어공학",https://spri.kr/posts/view/21746
+21695,2017-01-31,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,국내SW전문가들이 전망한 2017년 SW 10대 이슈,6,AI 개발·코딩(3); AI 인프라·데이터(3),AI 개발·코딩,AI 개발·코딩: 오픈소스; AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/21695
+19821,2016-09-21,SPRi칼럼,data_all; data_all|column; data_all|flg1,"오픈소스 기술혁신, 수평적인 정보 공유와 투명한 프로세스가 생명이다",6,AI 개발·코딩(6),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/19821
+18455,2016-08-03,공지사항,notice,국내외 SW교육 및 인재양성 정책 동향 조사,6,AI 인재·교육(6),AI 인재·교육,"AI 인재·교육: SW교육, 인재양성",https://spri.kr/posts/view/18455
+18382,2016-08-01,연구보고서,data_all; data_all|research; data_all|flg1,개인정보 비식별화기술의 쟁점 연구,6,AI 정책·규제(6),AI 정책·규제,AI 정책·규제: 개인정보,https://spri.kr/posts/view/18382
+16599,2016-05-24,기타자료,data_all; data_all|ai_brief; data_all|flg1,"세이프티 SW 2016 - 인공지능•IoT•자율주행시대, 안전성 확보 전략",6,AI 안전·신뢰·평가(6),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 안전성,https://spri.kr/posts/view/16599
+14492,2016-02-24,SPRi칼럼,data_all; data_all|column; data_all|flg1,오바마 대통령의 통큰 SW교육 투자를 바라보며...,6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/14492
+14316,2016-02-16,연구보고서,data_all; data_all|research; data_all|flg1,"효과적인 초중고 SW온라인 교육체계 연구, 레파지토리와 평가를 중심으로",6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/14316
+14224,2016-01-31,연구보고서,data_all; data_all|research; data_all|flg1,디지털 일자리 창출방안 연구,6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/14224
+13996,2016-01-28,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,SW교육지원법 제정연구,6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/13996
+13842,2016-01-27,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,소프트웨어산업 특수분류체계 제정 - 클라우드 서비스 분류 제정을 중심으로,6,AI 인프라·데이터(6),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/13842
+13671,2016-01-25,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,자유학기제 연계 SW교육 활성화 방안,6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/13671
+13514,2016-01-13,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,SW중심사회에서의 미래 일자리 연구: 컴퓨터화의 위협과 대응전략,6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/13514
+12378,2015-11-26,공지사항,notice,"온라인 SW교육 정보 플랫폼, SW WIKI 오픈",6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/12378
+10091,2015-09-18,SPRi칼럼,data_all; data_all|column; data_all|flg1,"클라우드 논의, 이제는 ‘신뢰’를 중심으로 재편할 때…",6,AI 인프라·데이터(3); AI 안전·신뢰·평가(3),AI 인프라·데이터,AI 인프라·데이터: 클라우드; AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/10091
+9997,2015-09-15,포럼,conference|flg1; forum,자유학기제 내 SW교육 현황과 지원 방안 (2015.9.22 | 16회),6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/9997
+9621,2015-08-31,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,컴퓨터 기술진보와 미래 일자리 변화,6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/9621
+8337,2015-07-21,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,자바 API 및 인터넷 게시물에 대한 저작권분쟁 동향,6,AI 개발·코딩(3); AI 정책·규제(3),AI 개발·코딩,AI 개발·코딩: API; AI 정책·규제: 저작권,https://spri.kr/posts/view/8337
+6615,2015-05-07,SPRi칼럼,data_all; data_all|column; data_all|flg1,우리아이들 SW교육 으로 힐링하자.,6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/6615
+6306,2015-04-30,SPRi칼럼,data_all; data_all|column; data_all|flg1,2014년 한국 SW개발자 현황,6,AI 개발·코딩(6),AI 개발·코딩,AI 개발·코딩: 개발자,https://spri.kr/posts/view/6306
+6008,2015-04-21,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,클라우드 시장 성장 가속 기대,6,AI 인프라·데이터(6),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/6008
+4883,2015-03-30,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,공공 클라우드 도입 기준 수립을 위한 제언,6,AI 인프라·데이터(6),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/4883
+4199,2015-03-20,SPRi칼럼,data_all; data_all|column; data_all|flg1,"클라우드 발전법, 기대 크다",6,AI 인프라·데이터(6),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/4199
+3330,2015-02-27,SPRi칼럼,data_all; data_all|column; data_all|flg1,청년 실업과 디지털 일자리,6,AI 인재·교육(6),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/3330
+2144,2015-01-30,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,클라우드 컴퓨팅 이용촉진을 위한 규제 개혁,6,AI 인프라·데이터(6),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/2144
+21794,2017-06-19,포럼,conference|flg1; forum,SW기반 일자리 미스매칭 해결 방안 (2017.07.04 | 32회),5,AI 인재·교육(5),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/21794
+8016,2015-06-30,포럼,conference|flg1; forum,소프트웨어정책연구소＆한국이러닝산업협회 공동포럼 (공지),5,AI 인재·교육(5),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/8016
+2990,2015-01-10,컨퍼런스,conference|flg1; conference,2015 SW산업전망 & SPRi Fall Conference (2014.12.10) (결과),5,AI 개발·코딩(5),AI 개발·코딩,AI 개발·코딩: 개발자,https://spri.kr/posts/view/2990
+24004,2026-07-06,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,An AI Project Size Estimation Framework- The Hidden Iceberg: Measuring Technical Scope -,4,RAG·검색(3); AI 서비스·산업 활용(1),RAG·검색,"RAG·검색: embedding, RAG, Retrieval; AI 서비스·산업 활용: chatbot",https://spri.kr/posts/view/24004
+23985,2026-05-06,연구보고서,data_all; data_all|research; data_all|flg1,소프트웨어 중심 산업의 경쟁력 진단 및 SW·AI 인력양성 정책 연구,4,AI 인재·교육(4),AI 인재·교육,"AI 인재·교육: 인재양성, 직무",https://spri.kr/posts/view/23985
+21988,2018-03-28,컨퍼런스,conference|flg1; conference,2018 SPRi Spring Conference (결과),4,AI 인재·교육(4),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/21988
+21986,2018-03-13,컨퍼런스,conference|flg1; conference,2018 SPRi Spring Conference (공지),4,AI 인재·교육(4),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/21986
+21742,2017-03-08,초청세미나,conference|flg1; speech,노환진(UST 기술정책전공 교수) 과학기술정책의 왜곡 : 과학기술계 합리적 질서를 위하여,4,AI 안전·신뢰·평가(4),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/21742
+21415,2016-11-22,초청세미나,conference|flg1; speech,강남훈 (한신대학교 교수) 인공지능과 기본소득,4,AI 인재·교육(4),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/21415
+19669,2016-09-09,포럼,conference|flg1; forum,안전한 지능정보 사회 구현을 위한 SW 안전성 교육 방안 (2016. 9.27 | 26회),4,AI 안전·신뢰·평가(4),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 안전성,https://spri.kr/posts/view/19669
+17676,2016-06-28,포럼,conference|flg1; forum,4차 산업혁명과 미래 일자리 (2016. 6.28 | 24회),4,AI 인재·교육(4),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/17676
+9900,2015-09-08,초청세미나,conference|flg1; speech,박종백 (법무법인 태평양 변호사) 오픈소스 소프트웨어 라이선스 컴플라이언스,4,AI 개발·코딩(4),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/9900
+3282,2015-01-20,초청세미나,conference|flg1; speech,배현섭 (슈어소프트테크) 고신뢰 고안전 SW 시험 및 검증(표준 및 사례 중심),4,AI 안전·신뢰·평가(3); AI 개발·코딩(1),AI 안전·신뢰·평가,AI 개발·코딩: 개발자; AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/3282
+24029,2026-09-28,공지사항,notice,"""2026 개인정보 보호주간"" 안내",3,AI 정책·규제(3),AI 정책·규제,AI 정책·규제: 개인정보,https://spri.kr/posts/view/24029
+24001,2026-06-25,공지사항,notice,[입찰공고]글로벌 AI 투자 기초데이터 구축 용역,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 데이터 구축,https://spri.kr/posts/view/24001
+24000,2026-06-19,공지사항,notice,[입찰재공고]주요국 공공부문 AI 도입현황 조사,3,AI 서비스·산업 활용(3),AI 서비스·산업 활용,AI 서비스·산업 활용: AI 도입,https://spri.kr/posts/view/24000
+23993,2026-06-08,공지사항,notice,[입찰공고]주요국 공공부문 AI 도입현황 조사,3,AI 서비스·산업 활용(3),AI 서비스·산업 활용,AI 서비스·산업 활용: AI 도입,https://spri.kr/posts/view/23993
+23975,2026-04-30,연구보고서,data_all; data_all|research; data_all|flg1,2025년 공공부문 AI 도입현황 연구,3,AI 서비스·산업 활용(3),AI 서비스·산업 활용,AI 서비스·산업 활용: AI 도입,https://spri.kr/posts/view/23975
+23966,2026-04-09,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,AI 인프라 경쟁에서 소프트웨어의 구조적 역할,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: Npu,https://spri.kr/posts/view/23966
+23959,2026-03-24,,AI-Brief; data_all|flg1,[AI Brief 스페셜] SaaSpocalypse의 파급효과와 산업 전망,3,AI 서비스·산업 활용(3),AI 서비스·산업 활용,AI 서비스·산업 활용: SaaS,https://spri.kr/posts/view/23959
+23954,2026-02-20,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,해외 거주 디지털 인재 활용의 전략적 접근 : 주요국 장단점 분석을 중심으로,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: AI 인재,https://spri.kr/posts/view/23954
+23939,2025-12-29,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,인공지능의 숨은 동력-소프트웨어의 역할과 함의,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/23939
+23916,2025-10-15,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,"산업경쟁력 강화의 원동력, 산업특화 소프트웨어의 성장 동인과 주요 사례",3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/23916
+23912,2025-09-23,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,DX 성공 전략의 재조명 : 왜 ‘SW 인력’이 핵심인가?,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW인재,https://spri.kr/posts/view/23912
+23907,2025-09-09,포럼,conference|flg1; forum,"[소프트웨어정책연구소] AI, ON! : 인재로 여는 미래",3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: AI 인재,https://spri.kr/posts/view/23907
+23896,2025-07-30,,AI-Brief; data_all|flg1,[AI Brief 스페셜] AI 데이터센터 동향과 시사점,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 데이터센터,https://spri.kr/posts/view/23896
+23875,2025-05-16,연구보고서,data_all; data_all|research; data_all|flg1,모빌리티 혁신을 위한 오픈소스 활성화 방안 연구,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/23875
+23872,2025-05-13,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,국내 기업·대학의 디지털 해외 인재 고용 및 취업 현황 분석,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 고용,https://spri.kr/posts/view/23872
+23866,2025-04-30,연구보고서,data_all; data_all|research; data_all|flg1,2024년 공공부문 AI 도입현황 연구,3,AI 서비스·산업 활용(3),AI 서비스·산업 활용,AI 서비스·산업 활용: AI 도입,https://spri.kr/posts/view/23866
+23865,2025-04-30,연구보고서,data_all; data_all|research; data_all|flg1,AI 안전의 부상과 정책 대응 방안 연구,3,AI 안전·신뢰·평가(3),AI 안전·신뢰·평가,AI 안전·신뢰·평가: AI 안전,https://spri.kr/posts/view/23865
+23864,2025-04-30,연구보고서,data_all; data_all|research; data_all|flg1,AI 신뢰성 및 윤리 제도 연구,3,AI 안전·신뢰·평가(3),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/23864
+23842,2025-04-17,공지사항,notice,[입찰공고]2025년 공공부문 AI 도입 현황조사,3,AI 서비스·산업 활용(3),AI 서비스·산업 활용,AI 서비스·산업 활용: AI 도입,https://spri.kr/posts/view/23842
+23804,2024-12-19,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,소프트웨어는 어떻게 세상을 혁신하는가?,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 인재양성,https://spri.kr/posts/view/23804
+23798,2024-12-10,,AI-Brief; data_all|flg1,[AI Brief 스페셜] AI 에이전트 동향,3,AI 에이전트(3),AI 에이전트,AI 에이전트: 에이전트,https://spri.kr/posts/view/23798
+23790,2024-11-20,공지사항,notice,2024 인공지능 윤리-신뢰성 포럼 공개세미나,3,AI 안전·신뢰·평가(3),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/23790
+23777,2024-10-07,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,"3대 게임체인저 기술(AI-반도체, 첨단바이오, 양자 기술) 확보 전략",3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: AI반도체,https://spri.kr/posts/view/23777
+23774,2024-09-13,포럼,conference|flg1; forum,[소프트웨어정책연구소] 안전하고 책임 있는 AI를 위한 노력과 방향,3,AI 안전·신뢰·평가(3),AI 안전·신뢰·평가,AI 안전·신뢰·평가: AI 안전,https://spri.kr/posts/view/23774
+23771,2024-09-02,공지사항,notice,[입찰공고]AI 안전 확보를 위한 AI 위험요인 및 정책 사례 조사 연구 용역,3,AI 안전·신뢰·평가(3),AI 안전·신뢰·평가,AI 안전·신뢰·평가: AI 안전,https://spri.kr/posts/view/23771
+23713,2024-05-16,공지사항,notice,소프트웨어정책연구소 개인정보처리방침,3,AI 정책·규제(3),AI 정책·규제,AI 정책·규제: 개인정보,https://spri.kr/posts/view/23713
+23720,2024-04-29,연구보고서,data_all; data_all|research; data_all|flg1,공공부문 AI 도입현황 연구,3,AI 서비스·산업 활용(3),AI 서비스·산업 활용,AI 서비스·산업 활용: AI 도입,https://spri.kr/posts/view/23720
+23707,2024-04-18,공지사항,notice,[입찰공고]2024년 공공부문 AI 도입현황조사 용역,3,AI 서비스·산업 활용(3),AI 서비스·산업 활용,AI 서비스·산업 활용: AI 도입,https://spri.kr/posts/view/23707
+23686,2024-03-11,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,인공지능 기술에 대한 중소기업의 인식 및 수요 조사분석,3,AI 안전·신뢰·평가(3),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/23686
+23638,2023-09-11,공지사항,notice,2023년 개인정보 보호주간(9.11 ~9.15),3,AI 정책·규제(3),AI 정책·규제,AI 정책·규제: 개인정보,https://spri.kr/posts/view/23638
+23637,2023-09-06,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,국내 인공지능(AI) 도입기업 현황 분석 및 시사점,3,AI 서비스·산업 활용(3),AI 서비스·산업 활용,AI 서비스·산업 활용: AI도입,https://spri.kr/posts/view/23637
+23625,2023-07-11,,AI-Brief; data_all|flg1,[AI Brief 스페셜] 중국과 일본의 생성 AI 동향,3,LLM·생성형 AI(3),LLM·생성형 AI,LLM·생성형 AI: 생성 AI,https://spri.kr/posts/view/23625
+23624,2023-07-11,,AI-Brief; data_all|flg1,[AI Brief 스페셜] 생성 AI 주도권 선점을 위한 구글과 MS의 경쟁 동향,3,LLM·생성형 AI(3),LLM·생성형 AI,LLM·생성형 AI: 생성 AI,https://spri.kr/posts/view/23624
+23619,2023-07-04,공지사항,notice,[입찰공고] 오픈소스 사업화 성공요인 분석 연구 용역,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/23619
+23598,2023-05-03,공지사항,notice,[입찰공고] 공공부문 AI 도입현황조사 용역,3,AI 서비스·산업 활용(3),AI 서비스·산업 활용,AI 서비스·산업 활용: AI 도입,https://spri.kr/posts/view/23598
+23597,2023-04-26,공지사항,notice,[입찰공고] 국내외 인공지능(AI) 신뢰성 정책 동향 조사 용역,3,AI 안전·신뢰·평가(3),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/23597
+23576,2023-04-06,기타자료,data_all; data_all|ai_brief; data_all|flg1,[AI Brief 특집호] 생성 AI가 노동시장에 미치는 영향 : 오픈AI-펜실베니아 대학 공동 연구 소개,3,LLM·생성형 AI(3),LLM·생성형 AI,LLM·생성형 AI: 생성 AI,https://spri.kr/posts/view/23576
+23575,2023-04-06,,AI-Brief; data_all|flg1,[AI Brief 특집호] 생성 AI가 노동시장에 미치는 영향 : 오픈AI-펜실베니아 대학 공동 연구 소개,3,LLM·생성형 AI(3),LLM·생성형 AI,LLM·생성형 AI: 생성 AI,https://spri.kr/posts/view/23575
+23573,2023-03-27,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,국내·외 공공부문 AI 활용현황 분석 및 시사점,3,AI 서비스·산업 활용(3),AI 서비스·산업 활용,AI 서비스·산업 활용: AI 활용,https://spri.kr/posts/view/23573
+23564,2023-03-16,,AI-Brief; data_all|flg1,[AI Brief 특집호] GPT-4 개요 및 특징,3,LLM·생성형 AI(3),LLM·생성형 AI,LLM·생성형 AI: GPT,https://spri.kr/posts/view/23564
+23558,2023-03-07,,AI-Brief; data_all|flg1,[AI Brief 특집호] 생성 AI : 스탠포드 HAI의 관점,3,LLM·생성형 AI(3),LLM·생성형 AI,LLM·생성형 AI: 생성 AI,https://spri.kr/posts/view/23558
+23538,2022-12-20,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,블록체인 위의 암호화 정보는 개인정보인가? : 블록체인 기반의 분산신원인증 서비스를 중심으로,3,AI 정책·규제(3),AI 정책·규제,AI 정책·규제: 개인정보,https://spri.kr/posts/view/23538
+23490,2022-09-13,포럼,conference|flg1; forum,디지털 선도국가로의 발판: 백만 인재 양성과 향후 과제,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 인재 양성,https://spri.kr/posts/view/23490
+23466,2022-07-11,공지사항,notice,[입찰공고] SW프리랜서 일자리 환경 실태조사,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/23466
+23454,2022-06-21,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,클라우드 전환과 ESG 경영의 확산,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/23454
+23445,2022-05-25,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,SW역량체계 현황 분석 및 시사점,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW인재,https://spri.kr/posts/view/23445
+23438,2022-05-24,연구보고서,data_all; data_all|research; data_all|flg1,인공지능 신뢰체계 정립방안 연구,3,AI 안전·신뢰·평가(3),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/23438
+23437,2022-05-24,연구보고서,data_all; data_all|research; data_all|flg1,SW시장평가 체계 구축 연구,3,AI 안전·신뢰·평가(3),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 평가 체계,https://spri.kr/posts/view/23437
+23429,2022-05-13,공지사항,notice,[조달청 입찰공고] 국내 민간부문 AI 활용현황 조사 및 분석,3,AI 서비스·산업 활용(3),AI 서비스·산업 활용,AI 서비스·산업 활용: AI 활용,https://spri.kr/posts/view/23429
+23428,2022-05-12,공지사항,notice,[조달청 입찰공고] 국내 공공부문 AI 활용현황 실태조사,3,AI 서비스·산업 활용(3),AI 서비스·산업 활용,AI 서비스·산업 활용: AI 활용,https://spri.kr/posts/view/23428
+23407,2022-04-15,공지사항,notice,[입찰공고] 국내외 AI 신뢰성 정책 사례 조사 연구 용역,3,AI 안전·신뢰·평가(3),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/23407
+23392,2022-03-31,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,"프로파일링, 추천서비스와 개인정보보호 정책 동향 분석",3,AI 정책·규제(3),AI 정책·규제,AI 정책·규제: 개인정보,https://spri.kr/posts/view/23392
+23337,2021-11-23,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,유럽 공개SW 정책 분석 및 시사점,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/23337
+23301,2021-09-13,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,오픈소스 블록체인 플랫폼 동향,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/23301
+23282,2021-07-27,연구보고서,data_all; data_all|research; data_all|flg1,국가통계 AI도입 활성화 방안 연구,3,AI 서비스·산업 활용(3),AI 서비스·산업 활용,AI 서비스·산업 활용: AI도입,https://spri.kr/posts/view/23282
+23280,2021-07-27,연구보고서,data_all; data_all|research; data_all|flg1,SW안전 등급평가 체계운영 및 SW안전 거버넌스 모델 마련,3,AI 안전·신뢰·평가(3),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 평가 체계,https://spri.kr/posts/view/23280
+23279,2021-07-27,연구보고서,data_all; data_all|research; data_all|flg1,국가 안전성 제고를 위한 소프트웨어안전 관리 등급 결정 기준 연구,3,AI 안전·신뢰·평가(3),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 안전성,https://spri.kr/posts/view/23279
+23271,2021-07-26,연구보고서,data_all; data_all|research; data_all|flg1,소프트웨어 산업 근로환경 개선방안 연구,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 직무,https://spri.kr/posts/view/23271
+23284,2021-07-20,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,글로벌 SW산업의 서비스화 패러다임과 성공사례,3,AI 서비스·산업 활용(3),AI 서비스·산업 활용,AI 서비스·산업 활용: SaaS,https://spri.kr/posts/view/23284
+23234,2021-07-13,SPRi칼럼,data_all; data_all|column; data_all|flg1,상용 소프트웨어 경쟁력 강화로 디지털 전환을 촉진하고 양질의 일자리를 만들자,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/23234
+23230,2021-06-23,공지사항,notice,산업계 AI 인력수요 기반의 대학 AI 교육 표준형 교과과정 연구 용역,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: AI 교육,https://spri.kr/posts/view/23230
+23217,2021-06-14,SPRi칼럼,data_all; data_all|column; data_all|flg1,"신뢰할 수 있는 인공지능, 규제보다 혁신으로",3,AI 안전·신뢰·평가(3),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/23217
+23166,2021-03-18,포럼,conference|flg1; forum,2022년 초·중등 교육과정 개정을 대비한 AI·SW 교육 과제(결과),3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW 교육,https://spri.kr/posts/view/23166
+23157,2021-03-08,포럼,conference|flg1; forum,2022년 초·중등 교육과정 개정을 대비한 AI·SW 교육 과제,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW 교육,https://spri.kr/posts/view/23157
+23101,2020-11-27,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,효과적인 대학의 SW·AI 교육 개선 방향 제안,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: AI 교육,https://spri.kr/posts/view/23101
+23052,2020-09-21,공지사항,notice,오픈소스 파급효과 분석을 위한 기초 연구 용역,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/23052
+23036,2020-08-18,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,AI･SW 인재양성 교육 프로그램 현황조사 및 개선방안,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW 인재,https://spri.kr/posts/view/23036
+22958,2020-05-25,공지사항,notice,AI인재 수급 실태조사 용역,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: AI인재,https://spri.kr/posts/view/22958
+22957,2020-05-21,공지사항,notice,국내외 기업의 AIㆍSW 교육 체계 및 관련 사업 현황 조사 용역,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW 교육,https://spri.kr/posts/view/22957
+22950,2020-05-04,공지사항,notice,오픈소스 연구 개발 생태계 현황 조사 용역,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/22950
+22923,2020-04-20,연구보고서,data_all; data_all|research; data_all|flg1,SW하도급 노동환경 분석과 개발자 처우 개선방안 연구,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 개발자,https://spri.kr/posts/view/22923
+22897,2020-02-10,SPRi칼럼,data_all; data_all|column; data_all|flg1,SW 안전 산업육성의 출발점은 SW 안전 등급평가 체계,3,AI 안전·신뢰·평가(3),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 평가 체계,https://spri.kr/posts/view/22897
+22764,2019-08-21,공지사항,notice,SW기업의 프리랜서 개발자 활용 현황 조사,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 개발자,https://spri.kr/posts/view/22764
+22756,2019-08-19,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,인공지능(AI) 시대 주요국의 인재양성 정책 동향,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 인재양성,https://spri.kr/posts/view/22756
+22740,2019-07-31,공지사항,notice,SW기업의 프리랜서 개발자 활용 현황 조사,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 개발자,https://spri.kr/posts/view/22740
+22719,2019-07-15,공지사항,notice,SW분야 자격 활용 및 인재양성 프로그램 실태조사,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 인재양성,https://spri.kr/posts/view/22719
+22718,2019-07-15,공지사항,notice,SW기업의 프리랜서 개발자 활용 현황 조사,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 개발자,https://spri.kr/posts/view/22718
+22715,2019-07-11,공지사항,notice,클라우드 구축사례에 대한 기술도입 결과 조사 및 분석,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/22715
+22710,2019-07-01,공지사항,notice,SW분야 자격 활용 및 인재양성 프로그램 실태조사,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 인재양성,https://spri.kr/posts/view/22710
+22703,2019-06-24,공지사항,notice,클라우드 구축사례에 대한 기술도입 결과 조사 및 분석,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/22703
+22686,2019-06-18,SPRi칼럼,data_all; data_all|column; data_all|flg1,"공공SW 구매, 가치기반으로 하자",3,AI 서비스·산업 활용(3),AI 서비스·산업 활용,AI 서비스·산업 활용: SaaS,https://spri.kr/posts/view/22686
+22662,2019-05-22,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,직무의 변화를 이끄는 로보틱 프로세스 자동화,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 직무,https://spri.kr/posts/view/22662
+22547,2019-01-16,기타자료,data_all; data_all|ai_brief; data_all|flg1,국내 SW프리랜서 개발자 현황과 정책 시사점,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 개발자,https://spri.kr/posts/view/22547
+22212,2018-07-19,공지사항,notice,젊은 sw인재양성 방안 정책지도 구축을 중심으로,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: sw인재,https://spri.kr/posts/view/22212
+22195,2018-07-05,공지사항,notice,젊은 sw인재양성 방안 정책지도 구축을 중심으로,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: sw인재,https://spri.kr/posts/view/22195
+22127,2018-06-12,공지사항,notice,젊은 SW인재양성 방안: 정책지도 구축을 연구,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW인재,https://spri.kr/posts/view/22127
+22123,2018-06-11,공지사항,notice,빅데이터 기반 SW일자리 지형변화 연구,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/22123
+22093,2018-05-23,공지사항,notice,빅데이터 기반 SW일자리 지형변화 연구,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/22093
+22072,2018-05-08,연구보고서,data_all; data_all|research; data_all|flg1,인공지능 컴퓨팅 인프라의 중요성과 실태조사 현황 및 시사점,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 컴퓨팅 인프라,https://spri.kr/posts/view/22072
+22066,2018-04-30,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,구글과 오라클 간 자바 API의 분쟁 역사 - (1),3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: API,https://spri.kr/posts/view/22066
+21976,2018-02-27,SPRi칼럼,data_all; data_all|column; data_all|flg1,피자와 혁신,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/21976
+21957,2018-02-05,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,중소기업･스타트업의 인공지능 컴퓨팅 인프라 현황과 시사점,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 컴퓨팅 인프라,https://spri.kr/posts/view/21957
+21888,2017-09-29,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,빅데이터 분석을 통한 SW Keyword 10,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/21888
+21883,2017-09-29,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,적대적 생성신경망(Generative Adversarial Network)의 소개와 활용 현황,3,LLM·생성형 AI(3),LLM·생성형 AI,LLM·생성형 AI: Generative,https://spri.kr/posts/view/21883
+21880,2017-09-29,SPRi칼럼,data_all; data_all|column; data_all|flg1,"분산처리의 끝판 블록체인, 신뢰 구축 도구로",3,AI 안전·신뢰·평가(3),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/21880
+21869,2017-09-12,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,새정부 국정운영 5개년 계획과 SW정책,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/21869
+21852,2017-08-08,공지사항,notice,국내외 초중등 SW교육 현황 조사,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/21852
+21835,2017-07-20,공지사항,notice,국내외 초중등 SW교육 현황 조사,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/21835
+21812,2017-06-26,연구보고서,data_all; data_all|research; data_all|flg1,빅데이터 분석 기반 SW산업 직종·직무 분류체계 개발 및 동향 연구,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 직무,https://spri.kr/posts/view/21812
+21724,2017-03-29,SPRi칼럼,data_all; data_all|column; data_all|flg1,소프트웨어 교육이 나가야 할 방향,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/21724
+21720,2017-03-24,공지사항,notice,공공SI 및 클라우드 발주제도 개선방안 연구,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/21720
+21675,2017-01-23,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,SW교육 관련 정책 동향,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/21675
+21673,2017-01-23,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,"마이크로마케팅의 진화와 개인정보보호, 그리고 기업의 사회적 책임",3,AI 정책·규제(3),AI 정책·규제,AI 정책·규제: 개인정보,https://spri.kr/posts/view/21673
+21662,2017-01-13,공지사항,notice,채용공고문 (연구직) 초중등 SW교육 현장 연구 운영 인력 초빙,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/21662
+21655,2016-12-20,초청세미나,conference|flg1; speech,고건 (이화여자대학교 석좌교수) 한국의 미래 인구문제와 SW교육의 중요성,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/21655
+21288,2016-11-18,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,여성 SW인재 양성을 위한 정책 동향,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW인재,https://spri.kr/posts/view/21288
+20815,2016-10-26,공지사항,notice,SW 취약계층을 위한 SW 교육방안 연구,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW 교육,https://spri.kr/posts/view/20815
+20728,2016-10-19,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,유럽의 공공 클라우드 서비스 조달 사례 분석,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/20728
+20401,2016-10-04,공지사항,notice,SW 취약계층을 위한 SW 교육방안 연구,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW 교육,https://spri.kr/posts/view/20401
+19018,2016-08-31,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,"미래 일자리의 금맥(金脈), 소프트웨어",3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/19018
+18647,2016-08-16,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,초·중등 교육용 프로그래밍 언어(EPL),3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/18647
+17761,2016-06-22,SPRi칼럼,data_all; data_all|column; data_all|flg1,괜찮은 개발자 어디 없나요?,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 개발자,https://spri.kr/posts/view/17761
+17754,2016-06-22,SPRi칼럼,data_all; data_all|column; data_all|flg1,"인공지능(AI) 시대의 청년 일자리, 혁신교육",3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/17754
+17533,2016-06-09,기타자료,data_all; data_all|ai_brief; data_all|flg1,주요국 클라우드 보안 규정 동향,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/17533
+17510,2016-06-09,기타자료,data_all; data_all|ai_brief; data_all|flg1,오픈소스 라이선스 치트시트,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/17510
+16225,2016-04-29,기타자료,data_all; data_all|ai_brief; data_all|flg1,"개인방송, 그 수익의 근원",3,AI 서비스·산업 활용(3),AI 서비스·산업 활용,AI 서비스·산업 활용: 수익 모델,https://spri.kr/posts/view/16225
+16125,2016-04-27,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,법률분야에서의 자동화와 일자리 전망,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/16125
+15625,2016-04-08,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,"2016년 SW기업 수출, 고용 및 R&D 투자 전망 조사",3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 고용,https://spri.kr/posts/view/15625
+15325,2016-03-24,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,"더 이상 특별하지 않은 존재, 오픈소스 소프트웨어",3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/15325
+15306,2016-03-24,SPRi칼럼,data_all; data_all|column; data_all|flg1,"왜, 오픈소스 소프트웨어인가?",3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/15306
+15191,2016-03-18,SPRi칼럼,data_all; data_all|column; data_all|flg1,알파고의 계산성능,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: GPU,https://spri.kr/posts/view/15191
+14926,2016-03-11,기타자료,data_all; data_all|ai_brief; data_all|flg1,통일을 대비한 남북한 저작권법의 정비방안,3,AI 정책·규제(3),AI 정책·규제,AI 정책·규제: 저작권,https://spri.kr/posts/view/14926
+14451,2016-02-25,연구보고서,data_all; data_all|research; data_all|flg1,국내 소프트웨어 기업 경쟁력에 관한 연구,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/14451
+21693,2016-02-23,연구보고서,data_all; data_all|research; data_all|flg1,SW중심사회의 일자리 정책방향 연구,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/21693
+14264,2016-02-11,SPRi칼럼,data_all; data_all|column; data_all|flg1,고급 SW개발자의 창업에 집중 지원을,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 개발자,https://spri.kr/posts/view/14264
+14130,2016-01-29,연구보고서,data_all; data_all|research; data_all|flg1,"소프트웨어 안전성 확보 체계에 관한 연구 - 시험, 평가, 인증을 중심으로",3,AI 안전·신뢰·평가(3),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 안전성,https://spri.kr/posts/view/14130
+14057,2016-01-28,연구보고서,data_all; data_all|research; data_all|flg1,장애인 SW 및 계산과학교육을 통한 미래디지털인재 양성 방안 연구,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 인재 양성,https://spri.kr/posts/view/14057
+14088,2016-01-27,기타자료,data_all; data_all|ai_brief; data_all|flg1,소프트웨어 중심사회를 대비한 정보과학 교육 혁신 포럼 (2015.4.10.),3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/14088
+13701,2016-01-26,SPRi칼럼,data_all; data_all|column; data_all|flg1,"교육혁신, 결국 SW에 달렸다",3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/13701
+13893,2016-01-25,기타자료,data_all; data_all|ai_brief; data_all|flg1,SW특허의 온라인 실시에 대한 법적 쟁점,3,AI 정책·규제(3),AI 정책·규제,AI 정책·규제: 저작권,https://spri.kr/posts/view/13893
+13886,2016-01-25,기타자료,data_all; data_all|ai_brief; data_all|flg1,발명의 컴퓨터 구현 논의에 따른 특허제도 개선방안,3,AI 정책·규제(3),AI 정책·규제,AI 정책·규제: 저작권,https://spri.kr/posts/view/13886
+13151,2015-12-22,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,글로벌 기업들의 자사 SW 오픈소스화 동향,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/13151
+13149,2015-12-22,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,클라우드 서비스 브로커리지 기업 동향,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/13149
+12988,2015-12-11,공지사항,notice,‘자유학기 SW멘토’ 발대식 (2015.12.9),3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/12988
+12397,2015-11-26,공지사항,notice,SW멘토스 프로그램 마련,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/12397
+12091,2015-11-19,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,"클라우드 서비스가 국내 통신, 방송, 콘텐츠 분야에 미치는 영향",3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/12091
+12084,2015-11-19,SPRi칼럼,data_all; data_all|column; data_all|flg1,"개인, 기업, 국가 미래창조를 위해 오픈소스에 투자하라",3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/12084
+12083,2015-11-19,SPRi칼럼,data_all; data_all|column; data_all|flg1,초·중등 SW교육의 필요성,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/12083
+11129,2015-10-19,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,우버와 리프트 운전자의 피고용인 여부에 대한 동향,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 고용,https://spri.kr/posts/view/11129
+11125,2015-10-19,SPRi칼럼,data_all; data_all|column; data_all|flg1,"왜, 인공지능법인가?",3,AI 정책·규제(3),AI 정책·규제,AI 정책·규제: 인공지능법,https://spri.kr/posts/view/11125
+11123,2015-10-19,SPRi칼럼,data_all; data_all|column; data_all|flg1,국민적 합의를 담은 SW교육법 제정해야…,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/11123
+11072,2015-10-16,공지사항,notice,자유학기제 내 SW교육용 콘텐츠 제작 용역,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/11072
+11071,2015-10-16,공지사항,notice,장애인 SW 및 계산과학교육을 통한 미래디지털인재 양성 방안 연구,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 인재 양성,https://spri.kr/posts/view/11071
+10480,2015-09-25,공지사항,notice,장애인 SW 및 계산과학교육을 통한 미래디지털인재 양성 방안 연구,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 인재 양성,https://spri.kr/posts/view/10480
+10090,2015-09-18,SPRi칼럼,data_all; data_all|column; data_all|flg1,"SW 중심사회, 일자리 창출과 비즈니스 혁신의 요체",3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/10090
+9230,2015-08-18,공지사항,notice,K-Cloud Star 공모전,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: Cloud,https://spri.kr/posts/view/9230
+9168,2015-08-17,SPRi칼럼,data_all; data_all|column; data_all|flg1,인도인은 어떻게 실리콘밸리를 지배하기 시작했나?,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 개발자,https://spri.kr/posts/view/9168
+9046,2015-08-17,기타자료,data_all; data_all|ai_brief; data_all|flg1,"오픈소스SW, SW산업의 주류로 부상하다.",3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 오픈소스,https://spri.kr/posts/view/9046
+9006,2015-08-17,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,클라우드발전법 시행과 관련 생태계 동향,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/9006
+8976,2015-08-13,SPRi칼럼,data_all; data_all|column; data_all|flg1,"재택근무로 실현되는 SW일자리 창출, 이상이 아니라 현실이다",3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/8976
+8975,2015-08-13,SPRi칼럼,data_all; data_all|column; data_all|flg1,SW중심사회와 미래일자리,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/8975
+8766,2015-08-06,공지사항,notice,"소프트웨어정책연구소, 스마트교육학회, 한국정보교육학회와 MOU 체결(8월8일)",3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/8766
+8668,2015-08-04,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,온라인 공개강의(MOOC) 생태계 활성화 방안,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/8668
+8292,2015-07-20,초청세미나,conference|flg1; speech,이병태 (KAIST 교수) Starting Economy,3,AI 인프라·데이터(3),AI 인프라·데이터,"AI 인프라·데이터: 컴퓨팅 자원, 클라우드",https://spri.kr/posts/view/8292
+8012,2015-06-30,SPRi칼럼,data_all; data_all|column; data_all|flg1,공부하는 아이보다 노는 아이가 성공할 확률이 높다,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/8012
+7884,2015-06-22,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,초중등 SW교육 추진 동향,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/7884
+7796,2015-06-19,SPRi칼럼,data_all; data_all|column; data_all|flg1,클라우드 컴퓨팅의 트렌드가 공공 정보화 사업에 던지는 숙제,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/7796
+7174,2015-05-22,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,시큐어 코딩 동향,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 코딩,https://spri.kr/posts/view/7174
+7165,2015-05-22,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,글로벌 클라우드 기업 동향과 국내 시장 변화,3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/7165
+7154,2015-05-22,산업/정책 동향,data_all; data_all|industry_trend; data_all|flg1,"IBM, 왓슨 및 개방형 클라우드로 의료 서비스 혁신 추진",3,AI 인프라·데이터(3),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/7154
+3322,2015-02-27,SPRi칼럼,data_all; data_all|column; data_all|flg1,"디지털 세상, 지식정보 사회를 대비한 정보과학 교육 혁신이 필요하다",3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/3322
+3301,2015-02-27,SPRi칼럼,data_all; data_all|column; data_all|flg1,소프트웨어 개발자가 존경 받는 사회,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 개발자,https://spri.kr/posts/view/3301
+3296,2015-02-27,SPRi칼럼,data_all; data_all|column; data_all|flg1,초·중등 SW 교육 준비 시급하다,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW 교육,https://spri.kr/posts/view/3296
+1931,2015-01-19,연구보고서,data_all; data_all|research; data_all|flg1,지방자치단체 공공SW사업 발주역량 평가체계 연구,3,AI 안전·신뢰·평가(3),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 평가체계,https://spri.kr/posts/view/1931
+1621,2014-12-17,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,맞춤형 고용·복지 구현을 위한 정보화 전략 계획 수립 제안,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: 고용,https://spri.kr/posts/view/1621
+3305,2014-12-15,SPRi칼럼,data_all; data_all|column; data_all|flg1,하버드대에 부는 컴퓨팅 교육 열풍,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/3305
+3300,2014-09-27,SPRi칼럼,data_all; data_all|column; data_all|flg1,메이커문화와 소프트웨어 교육,3,AI 인재·교육(3),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/3300
+1332,2014-09-25,초청세미나,conference|flg1; speech,김영진 (구글 검색 엔지니어) 잘나가는 구글의 문화 알아보기,3,AI 개발·코딩(3),AI 개발·코딩,AI 개발·코딩: 개발자,https://spri.kr/posts/view/1332
+24018,2026-09-08,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,데이터 기반 가상융합(XR) 기술 콘텐츠 글로벌 동향 분석,2,LLM·생성형 AI(2),LLM·생성형 AI,"LLM·생성형 AI: generative, 생성형",https://spri.kr/posts/view/24018
+20797,2016-10-24,초청세미나,conference|flg1; speech,김기응 (KAIST 교수) Reinforcement Learning,2,모델 학습·튜닝·추론(2),모델 학습·튜닝·추론,모델 학습·튜닝·추론: 강화학습,https://spri.kr/posts/view/20797
+8435,2015-07-21,포럼,conference|flg1; forum,소프트웨어정책연구소＆한국이러닝산업협회 공동포럼 (결과),2,AI 인재·교육(2),AI 인재·교육,AI 인재·교육: SW교육,https://spri.kr/posts/view/8435
+24028,2026-09-18,이슈리포트,data_all; data_all|issue_reports; data_all|flg1,글로벌 AI 벤처투자 동향과 투자 집중구조: 국내 현황과 시사점,1,AI 인프라·데이터(1),AI 인프라·데이터,AI 인프라·데이터: AI 반도체,https://spri.kr/posts/view/24028
+23074,2020-10-14,컨퍼런스,conference|flg1; conference,Digital Triangle 2020 컨퍼런스,1,AI 정책·규제(1),AI 정책·규제,AI 정책·규제: AI 정책,https://spri.kr/posts/view/23074
+22203,2018-07-09,초청세미나,conference|flg1; speech,안지성 (매사추세스대학교) 4차 산업혁명과 행정의 미래,1,AI 인프라·데이터(1),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/22203
+21796,2017-06-20,초청세미나,conference|flg1; speech,허명회 (고려대학교 교수) 정책평가를 위한 통계적 방법,1,AI 안전·신뢰·평가(1),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/21796
+21656,2016-12-06,초청세미나,conference|flg1; speech,김명호 (한국마이크로소프트 상무) How Microsoft Does It,1,AI 인프라·데이터(1),AI 인프라·데이터,AI 인프라·데이터: 클라우드,https://spri.kr/posts/view/21656
+20318,2016-09-29,초청세미나,conference|flg1; speech,송준화 (KAIST 교수) 인공지능과 SW,1,AI 안전·신뢰·평가(1),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 편향,https://spri.kr/posts/view/20318
+15848,2016-04-20,초청세미나,conference|flg1; speech,신현묵(오픈데이터헬스케어그룹 상임이사) 의료환경의 변화에 따른 헬스케어 IT의 현황과 변화,1,AI 인프라·데이터(1),AI 인프라·데이터,AI 인프라·데이터: Cloud,https://spri.kr/posts/view/15848
+14678,2016-02-29,초청세미나,conference|flg1; speech,김명준 (ETRI 책임연구원) 한국 SW산업정책의 역사와 SW정책의 역할,1,AI 안전·신뢰·평가(1),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 신뢰,https://spri.kr/posts/view/14678
+8696,2015-08-04,초청세미나,conference|flg1; speech,박영숙 (유엔미래포럼 대표) 미래예측방법론,1,AI 인재·교육(1),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/8696
+7756,2015-06-18,초청세미나,conference|flg1; speech,이 근 (서울대학교 국제대학원 교수) Davos Forum 2015: The New Global Context,1,AI 인재·교육(1),AI 인재·교육,AI 인재·교육: 고용,https://spri.kr/posts/view/7756
+6734,2015-05-12,초청세미나,conference|flg1; speech,오일근 (서울대 조선해양공학과 교수) 미래 표준·인증의 융합적 가치 창조,1,AI 안전·신뢰·평가(1),AI 안전·신뢰·평가,AI 안전·신뢰·평가: 설명 가능,https://spri.kr/posts/view/6734
+1803,2015-01-05,포럼,conference|flg1; forum,제185회 국회 과학기술혁신포럼 - 공공SW사업 발주체계 이대로 좋은가?,1,AI 인재·교육(1),AI 인재·교육,AI 인재·교육: 고용,https://spri.kr/posts/view/1803
+3289,2014-10-21,초청세미나,conference|flg1; speech,곽재원 (한양대학교 석좌교수) 21세기 테크노헤게모니 시대,1,AI 인재·교육(1),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/3289
+3291,2014-10-07,초청세미나,conference|flg1; speech,이경태 (고려대학교 석좌 교수) 한국 경제와 산업 구조 고도화,1,AI 인재·교육(1),AI 인재·교육,AI 인재·교육: 일자리,https://spri.kr/posts/view/3291
