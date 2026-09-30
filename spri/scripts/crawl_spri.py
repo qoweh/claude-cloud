@@ -8,17 +8,17 @@
      중간에 끊겨도 다시 실행하면 이미 받은 글은 건너뛴다.
 
 사용법:
-    python3 spri/scripts/crawl_spri.py                  # 목록만 전체 수집
-    python3 spri/scripts/crawl_spri.py --details        # 목록 + 상세 전체 수집
-    python3 spri/scripts/crawl_spri.py --max-pages 2    # 게시판당 2페이지만 (테스트)
-    python3 spri/scripts/crawl_spri.py --details-only   # 이미 받은 목록으로 상세만
+    python3 spri/scripts/crawl_spri.py --details --workers 3   # 목록 + 상세 전체 수집
+    python3 spri/scripts/crawl_spri.py                         # 목록만
+    python3 spri/scripts/crawl_spri.py --details-only --workers 3   # 저장된 목록으로 상세만 (이어받기)
+    python3 spri/scripts/crawl_spri.py --max-pages 2 --details --details-limit 10   # 테스트
+    python3 spri/scripts/crawl_spri.py --rebuild-toc           # 저장된 본문으로 목차만 다시 계산
 
 결과 (spri/data/):
     boards.json     게시판 목록과 게시판별 페이지·게시물 수
     posts.json      게시판별 게시물 목록
     posts.csv       게시물 한 건당 한 줄 (여러 게시판에 있는 글은 합쳐서)
     details.jsonl   게시물 상세 (한 줄에 한 건)
-    details.csv     상세 중 요약·목차·첨부를 펼친 표
 """
 import argparse
 import csv
@@ -488,25 +488,6 @@ def crawl_details(merged, delay, limit, workers=1, refetch_empty=False):
                 print(f"  {i}/{len(todo)} {p['id']} {(d or {}).get('date', '실패')} {title[:40]}")
 
 
-def write_details_csv():
-    rows = load_details()
-    with open(OUT_DIR / "details.csv", "w", newline="", encoding="utf-8-sig") as f:
-        w = csv.writer(f)
-        w.writerow(["id", "date", "category", "number", "title", "authors", "tags",
-                    "toc", "attachments", "views", "boards", "url", "text_head"])
-        for d in sorted(rows.values(), key=lambda x: (x["date"], int(x["id"])), reverse=True):
-            w.writerow([
-                d["id"], d["date"], d.get("category", ""), d.get("number", ""),
-                d.get("title") or d.get("list_title", ""),
-                "; ".join(f"{a['name']}({a['position']})" if a["position"] else a["name"]
-                          for a in d["authors"]),
-                "; ".join(d["tags"]), " | ".join(d["toc"]),
-                "; ".join(f"{a['file_id']}:{a['label']}" for a in d["attachments"]),
-                d.get("views", ""), "; ".join(d.get("boards", [])), d["url"], d["text"][:800],
-            ])
-    return len(rows)
-
-
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--delay", type=float, default=0.7, help="요청 간 대기(초)")
@@ -535,7 +516,6 @@ def main():
         with open(OUT_DIR / "details.jsonl", "w", encoding="utf-8") as f:
             for d in rows.values():
                 f.write(json.dumps(d, ensure_ascii=False) + "\n")
-        write_details_csv()
         print(f"목차 다시 계산: {len(rows)}건 중 {changed}건 바뀜")
         return
 
@@ -557,9 +537,9 @@ def main():
 
     if args.details or args.details_only:
         crawl_details(merged, args.delay, args.details_limit, args.workers, args.refetch_empty)
-        n = write_details_csv()
-        write_lists(boards, result, load_details())
-        print(f"상세 완료: {n}건 → {OUT_DIR / 'details.csv'}")
+        details = load_details()
+        write_lists(boards, result, details)
+        print(f"상세 완료: {len(details)}건 → {OUT_DIR / 'details.jsonl'}")
 
 
 if __name__ == "__main__":
