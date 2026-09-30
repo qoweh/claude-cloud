@@ -25,7 +25,9 @@ import csv
 import json
 import re
 import sys
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import OrderedDict
 from pathlib import Path
 from urllib.parse import parse_qs, urlencode, urljoin, urlparse
@@ -37,6 +39,7 @@ BASE = "https://spri.kr/"
 OUT_DIR = Path(__file__).resolve().parent.parent / "data"
 UA = "Mozilla/5.0 (compatible; study-crawler; personal learning use)"
 PAGE_PARAMS = ("data_page", "page")
+FILE_DOWN = re.compile(r"file_down\(\s*'\s*(\d+)\s*'\s*\)")  # file_down(' 23065') 처럼 공백이 낀 글도 있다
 
 # (key, 이름, URL). 메인 메뉴·목록 페이지에서 확인한 게시판이다.
 # data_all 은 연구자료 전체이고 board_type 별 게시판은 그 부분집합이다.
@@ -62,8 +65,14 @@ BOARDS = [
 # 메뉴에는 있지만 게시물 목록이 아닌 안내 페이지라 건너뛴다
 SKIP_BOARDS = {"open_release"}
 
-session = requests.Session()
-session.headers["User-Agent"] = UA
+_local = threading.local()
+
+
+def get_session():
+    if not hasattr(_local, "session"):
+        _local.session = requests.Session()
+        _local.session.headers["User-Agent"] = UA
+    return _local.session
 
 
 def fetch(url, delay, tries=5):
@@ -71,7 +80,7 @@ def fetch(url, delay, tries=5):
     time.sleep(delay)
     for attempt in range(tries):
         try:
-            r = session.get(url, timeout=40)
+            r = get_session().get(url, timeout=40)
             if r.status_code == 404:
                 print(f"  ! 404 {url}", file=sys.stderr)
                 return None
@@ -211,7 +220,7 @@ def parse_item(li, page_url):
     authors = list(OrderedDict.fromkeys(text_of(a) for a in li.select('a[href*="s_authors="]')))
     tags = list(OrderedDict.fromkeys(text_of(a) for a in li.select('a[href*="s_tags="]')))
     summary = text_of(li.select_one(".info_list")) or text_of(li.select_one(".text"))
-    files = re.findall(r"file_down\('(\d+)'\)", str(li))
+    files = FILE_DOWN.findall(str(li))
 
     return {
         "id": pid, "title": title, "date": date, "category": category, "number": number,
@@ -314,6 +323,8 @@ def write_lists(boards, result, details=None):
         if not p["authors"] and d.get("authors"):
             p["authors"] = [a["name"] for a in d["authors"]]
         p["number"] = p["number"] or d.get("number", "")
+        if not p["file_ids"]:
+            p["file_ids"] = [a["file_id"] for a in d.get("attachments", [])]
     with open(OUT_DIR / "posts.csv", "w", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
         w.writerow(["id", "date", "category", "number", "title", "authors", "tags",
@@ -380,7 +391,7 @@ def parse_detail(html, url):
         m = re.search(r"/download/(\d+)", a.get("href", "") + " " + a.get("data-down", ""))
         if m:
             fid = m.group(1)
-        m = re.search(r"file_down\('(\d+)'\)", a.get("onclick", ""))
+        m = FILE_DOWN.search(a.get("onclick", ""))
         if m:
             fid = m.group(1)
         if fid and fid not in seen:
@@ -403,32 +414,36 @@ def parse_detail(html, url):
     return d
 
 
-def crawl_details(merged, delay, limit):
+def fetch_detail(p, delay):
+    url = urljoin(BASE, f"posts/view/{p['id']}?" + urlparse(p["url"]).query)
+    html = fetch(url, delay)
+    if not html:
+        return None
+    d = parse_detail(html, url)
+    d["list_title"], d["category"], d["boards"] = p["title"], p["category"], p["boards"]
+    d["date"] = d["date"] or p["date"]
+    return d
+
+
+def crawl_details(merged, delay, limit, workers=1, refetch_empty=False):
+    """상세를 받아 details.jsonl 에 이어 쓴다. 같은 글이 여러 줄이면 마지막 줄을 쓴다."""
     path = OUT_DIR / "details.jsonl"
-    done = set()
-    if path.exists():
-        for line in path.read_text().splitlines():
-            try:
-                done.add(json.loads(line)["id"])
-            except (ValueError, KeyError):
-                pass
+    done = {pid for pid, d in load_details().items()
+            if not (refetch_empty and not d.get("attachments"))}
     todo = [p for p in merged.values() if p["id"] not in done]
     if limit:
         todo = todo[:limit]
-    print(f"[상세] 받을 글 {len(todo)}건 (이미 받은 글 {len(done)}건)")
-    with open(path, "a", encoding="utf-8") as f:
-        for i, p in enumerate(todo, 1):
-            url = urljoin(BASE, f"posts/view/{p['id']}?" + urlparse(p["url"]).query)
-            html = fetch(url, delay)
-            if not html:
-                continue
-            d = parse_detail(html, url)
-            d["list_title"], d["category"], d["boards"] = p["title"], p["category"], p["boards"]
-            d["date"] = d["date"] or p["date"]
-            f.write(json.dumps(d, ensure_ascii=False) + "\n")
-            f.flush()
+    print(f"[상세] 받을 글 {len(todo)}건 (이미 받은 글 {len(done)}건, 동시 {workers}개)")
+    with open(path, "a", encoding="utf-8") as f, ThreadPoolExecutor(max_workers=workers) as ex:
+        futures = {ex.submit(fetch_detail, p, delay): p for p in todo}
+        for i, fut in enumerate(as_completed(futures), 1):
+            p, d = futures[fut], fut.result()
+            if d:
+                f.write(json.dumps(d, ensure_ascii=False) + "\n")
+                f.flush()
             if i % 25 == 0 or i == len(todo):
-                print(f"  {i}/{len(todo)} {p['id']} {d['date']} {(d['title'] or p['title'])[:40]}")
+                title = (d or {}).get("title") or p["title"]
+                print(f"  {i}/{len(todo)} {p['id']} {(d or {}).get('date', '실패')} {title[:40]}")
 
 
 def write_details_csv():
@@ -457,6 +472,8 @@ def main():
     ap.add_argument("--details", action="store_true", help="목록 뒤에 상세 페이지도 수집")
     ap.add_argument("--details-only", action="store_true", help="저장된 목록으로 상세만 수집")
     ap.add_argument("--details-limit", type=int, default=0, help="상세를 이만큼만 (테스트)")
+    ap.add_argument("--workers", type=int, default=1, help="상세를 동시에 받을 개수")
+    ap.add_argument("--refetch-empty", action="store_true", help="첨부가 비어 있는 상세를 다시 받기")
     args = ap.parse_args()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -477,7 +494,7 @@ def main():
         print(f"목록 완료: 게시판 {len(result)}개, 게시판별 합계 {total}건, 중복 제거 {len(merged)}건")
 
     if args.details or args.details_only:
-        crawl_details(merged, args.delay, args.details_limit)
+        crawl_details(merged, args.delay, args.details_limit, args.workers, args.refetch_empty)
         n = write_details_csv()
         write_lists(boards, result, load_details())
         print(f"상세 완료: {n}건 → {OUT_DIR / 'details.csv'}")
