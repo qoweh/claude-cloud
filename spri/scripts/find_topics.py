@@ -22,16 +22,18 @@ DATA = Path(__file__).resolve().parent.parent / "data"
 
 # 주제 → 정규식(대소문자 무시). 넓게 잡고 점수로 거른다.
 TOPICS = OrderedDict([
-    ("RAG·검색", r"\bRAG\b|검색\s?증강|retrieval|벡터\s?(DB|데이터베이스|검색)|임베딩|embedding|지식\s?그래프|knowledge graph|시맨틱 검색"),
-    ("AI 에이전트", r"에이전트|에이전틱|agent|agentic|\bMCP\b|멀티\s?에이전트|컴퓨터\s?사용|computer use|자율\s?AI|AI\s?비서|코파일럿|copilot"),
-    ("LLM·생성형 AI", r"\bLLM\b|거대\s?언어|대규모\s?언어|대형\s?언어|초거대|생성\s?(형|AI)|generative|GPT|ChatGPT|클로드|Claude|제미나이|Gemini|Llama|파운데이션\s?모델|foundation model|\bsLM\b|소형\s?언어|언어\s?모델"),
-    ("모델 학습·튜닝·추론", r"파인\s?튜닝|fine[- ]?tun|미세\s?조정|프롬프트|prompt|추론\s?(모델|비용|능력)|reasoning|강화\s?학습|RLHF|경량화|양자화|distill|증류|토큰|컨텍스트|context window|멀티\s?모달|multimodal"),
-    ("AI 개발·코딩", r"코딩|coding|개발자|developer|바이브\s?코딩|vibe|코드\s?생성|code generation|AI\s?개발\s?도구|깃허브|GitHub|오픈\s?소스|open\s?source|\bAPI\b|MLOps|LLMOps|AI\s?엔지니어|SW\s?공학|소프트웨어\s?공학|테스트\s?자동"),
-    ("AI 인프라·데이터", r"GPU|NPU|AI\s?반도체|데이터\s?센터|클라우드|cloud|컴퓨팅\s?(자원|인프라)|학습\s?데이터|합성\s?데이터|데이터\s?(셋|구축|품질)|dataset"),
-    ("AI 안전·신뢰·평가", r"AI\s?안전|안전성|신뢰|trustworth|환각|hallucination|벤치마크|benchmark|평가\s?(체계|지표|방법)|레드\s?팀|red[- ]?team|정렬|alignment|편향|bias|설명\s?가능|XAI|워터마크|딥페이크"),
-    ("AI 서비스·산업 활용", r"AI\s?(서비스|도입|활용|전환)|\bAX\b|인공지능\s?전환|업무\s?자동화|챗봇|chatbot|AI\s?스타트업|SaaS|AI\s?비즈니스|수익\s?모델"),
-    ("AI 인재·교육", r"AI\s?인재|SW\s?인재|인재\s?양성|AI\s?교육|SW\s?교육|코딩\s?교육|직무|일자리|고용"),
-    ("AI 정책·규제", r"AI\s?(법|기본법|규제|정책|거버넌스)|EU\s?AI|인공지능\s?(법|기본법)|저작권|개인정보"),
+    ("LLM·생성형 AI", r"\bLLM|거대\s?언어|대규모\s?언어|대형\s?언어|초거대|생성\s?(형|AI)|generative|\bGPT|ChatGPT|챗GPT|클로드|Claude|제미나이|Gemini|Llama|파운데이션\s?모델|기반\s?모델|foundation model|\bsLM\b|소형\s?언어|언어\s?모델|딥시크|DeepSeek|트랜스포머|transformer"),
+    ("AI 에이전트", r"에이전트|에이전틱|\bagents?\b|agentic|\bMCP\b|컴퓨터\s?사용|computer use|오퍼레이터|AI\s?비서|코파일럿|copilot"),
+    ("RAG·검색·지식", r"\bRAG\b|검색\s?증강|retrieval|벡터\s?(DB|데이터베이스|검색)|임베딩|embedding|지식\s?그래프|knowledge graph|검색\s?(엔진|알고리즘|서비스)|AI\s?검색|추천\s?(시스템|알고리즘|서비스)"),
+    ("모델 기술(학습·추론·멀티모달)", r"파인\s?튜닝|fine[- ]?tun|미세\s?조정|프롬프트|prompt|추론\s?(모델|비용|능력|성능)|reasoning|강화\s?학습|RLHF|경량화|양자화|distill|증류|토큰\s?(비용|단가|수|가격)|토크노믹스|컨텍스트\s?(윈도|창|길이)|context window|멀티\s?모달|multimodal|월드\s?모델|world model|피지컬\s?AI|physical AI|딥러닝|deep learning|기계\s?학습|머신\s?러닝|machine learning|신경망|알고리즘 분석"),
+    ("오픈소스·오픈 모델", r"오픈\s?소스|open\s?source|공개\s?SW|오픈\s?(모델|웨이트)|open[- ]weight|깃허브|GitHub|라이선스"),
+    ("AI 인프라·SW 스택", r"GPU|NPU|TPU|AI\s?반도체|지능형\s?반도체|데이터\s?센터|클라우드|cloud|컴퓨팅\s?(자원|인프라|파워)|고성능\s?컴퓨팅|PyTorch|파이토치|JAX|CUDA|쿠다|MLPerf|엔비디아|NVIDIA|MLOps|LLMOps"),
+    ("데이터", r"학습\s?데이터|합성\s?데이터|데이터\s?(셋|구축|품질|상호운용|이동권|거버넌스|경제|댐|라벨링|레이블링)|dataset|synthetic data|공공\s?데이터|빅\s?데이터"),
+    ("개발자·개발 방식", r"코딩|coding|개발자|developer|바이브\s?코딩|vibe coding|코드\s?생성|code generation|AI\s?개발\s?도구|코딩\s?에이전트|\bAPI\b|SW\s?공학|소프트웨어\s?공학|DevOps|애자일|agile|컨테이너|마이크로\s?서비스|테스트\s?자동|시큐어\s?코딩|규모\s?산정|프로그래밍"),
+    ("AI 신뢰·안전·평가", r"AI\s?안전|안전성|신뢰성|신뢰할 수 있는|trustworth|환각|hallucination|벤치마크|benchmark|성능\s?(측정|평가)|평가\s?(체계|지표|방법)|레드\s?팀|red[- ]?team|alignment|편향|bias|공정성|설명\s?가능|XAI|워터마크|딥페이크|AI\s?위험|AI\s?윤리|책임\s?있는 AI"),
+    ("AI 서비스·비즈니스", r"AI\s?(서비스|도입|활용|전환|스타트업|비즈니스|기업)|\bAX\b|인공지능\s?(전환|도입|활용)|업무\s?자동화|챗봇|chatbot|SaaS|수익\s?모델|비즈니스\s?모델"),
+    ("정책·규제", r"AI\s?(법|기본법|규제|거버넌스|행정명령)|EU\s?AI|AI\s?Act|인공지능\s?(법|기본법)|저작권|개인정보|AI\s?정책"),
+    ("인재·커리어", r"AI\s?인재|SW\s?인재|디지털\s?인재|인재\s?양성|AI\s?교육|SW\s?교육|코딩\s?교육|채용|직무|일자리|고용|커리어"),
 ])
 TOPIC_RE = {k: re.compile(v, re.I) for k, v in TOPICS.items()}
 
