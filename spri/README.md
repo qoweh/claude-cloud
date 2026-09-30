@@ -5,7 +5,7 @@
 ## 진행 단계
 
 1. **수집**: 전체 게시판의 게시물 목록과 상세(날짜, 저자, 요약, 목차, 첨부)를 크롤링한다. `scripts/crawl_spri.py` → `data/`
-2. **대목차 승인**: 수집한 자료를 주제별로 나눠 [`00_목차_초안.md`](00_목차_초안.md)에 정리하고 확인을 받는다. `scripts/find_topics.py`로 주제 후보를 뽑는다.
+2. **대목차 승인**: 수집한 자료를 주제별로 나눠 [`00_목차_초안.md`](00_목차_초안.md)에 정리하고 확인을 받는다. `scripts/find_topics.py`로 주제 후보를 뽑고, `scripts/pdf_text.py`로 보고서 PDF 전문에서 주제어를 찾는다.
 3. **정리**: 승인된 목차대로 자료별 요약과 추천 이유를 쓴다.
 
 ## 실행
@@ -18,6 +18,11 @@ python3 spri/scripts/crawl_spri.py --details-only --workers 3                  #
 python3 spri/scripts/crawl_spri.py --details-only --workers 3 --refetch-empty  # 첨부가 빈 상세만 다시 받기
 python3 spri/scripts/crawl_spri.py --max-pages 2 --details --details-limit 10   # 테스트
 python3 spri/scripts/find_topics.py                # 주제별 후보 뽑기
+
+# PDF 전문 검색 (PDF와 텍스트는 spri/cache/에 저장, 커밋하지 않음)
+pip install pypdf cffi
+python3 spri/scripts/pdf_text.py fetch --since 2023 --boards data_all,AI-Brief --workers 3
+python3 spri/scripts/pdf_text.py search "(?-i:RAG)|검색\s?증강" --context 2
 ```
 
 요청 사이에 0.7초씩 쉰다(`--delay`). 상세는 `--workers`만큼 동시에 받는다(3이면 분당 약 100건). spri.kr이 가끔 연결을 끊지만 재시도로 처리된다.
