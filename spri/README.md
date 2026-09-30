@@ -20,9 +20,9 @@ python3 spri/scripts/crawl_spri.py --max-pages 2  # 게시판당 2페이지만 (
 
 | 게시판 | URL |
 |---|---|
-| 월간 SW중심사회(매거진) | https://spri.kr/posts?code=magazine |
+| 매거진 | https://spri.kr/posts?code=magazine |
 | AI 브리프 | https://spri.kr/posts?code=AI-Brief |
 | 연구자료 전체 | https://spri.kr/posts?code=data_all |
 | 연구보고서 | https://spri.kr/posts?code=data_all&board_type=research |
 | 이슈리포트 | https://spri.kr/posts?code=data_all&board_type=issue_reports |
-| 자문/기타 | https://spri.kr/posts?code=data_all&board_type=advice |
+| 자문 (board_type=advice) | https://spri.kr/posts?code=data_all&board_type=advice |
