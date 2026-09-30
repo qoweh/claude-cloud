@@ -1,0 +1,121 @@
+{
+  "data_all": {
+    "name": "연구자료 전체",
+    "url": "https://spri.kr/posts?code=data_all",
+    "pages": 112,
+    "count": 1339,
+    "page_param": "data_page"
+  },
+  "data_all|research": {
+    "name": "연구보고서",
+    "url": "https://spri.kr/posts?code=data_all&board_type=research",
+    "pages": 17,
+    "count": 194,
+    "page_param": "data_page"
+  },
+  "data_all|issue_reports": {
+    "name": "이슈리포트",
+    "url": "https://spri.kr/posts?code=data_all&board_type=issue_reports",
+    "pages": 20,
+    "count": 235,
+    "page_param": "data_page"
+  },
+  "data_all|column": {
+    "name": "SPRi칼럼",
+    "url": "https://spri.kr/posts?code=data_all&board_type=column",
+    "pages": 27,
+    "count": 317,
+    "page_param": "data_page"
+  },
+  "data_all|industry_trend": {
+    "name": "산업/정책 동향",
+    "url": "https://spri.kr/posts?code=data_all&board_type=industry_trend",
+    "pages": 41,
+    "count": 481,
+    "page_param": "data_page"
+  },
+  "data_all|ai_brief": {
+    "name": "기타자료",
+    "url": "https://spri.kr/posts?code=data_all&board_type=ai_brief",
+    "pages": 9,
+    "count": 103,
+    "page_param": "data_page"
+  },
+  "magazine": {
+    "name": "SW중심사회 (월간 매거진)",
+    "url": "https://spri.kr/posts?code=magazine",
+    "pages": 13,
+    "count": 147,
+    "page_param": "data_page"
+  },
+  "AI-Brief": {
+    "name": "AI 브리프",
+    "url": "https://spri.kr/posts?code=AI-Brief",
+    "pages": 6,
+    "count": 67,
+    "page_param": "data_page"
+  },
+  "annual_reports": {
+    "name": "산업연간보고서",
+    "url": "https://spri.kr/posts?code=annual_reports",
+    "pages": 1,
+    "count": 9,
+    "page_param": "data_page"
+  },
+  "sw_reports": {
+    "name": "승인통계보고서",
+    "url": "https://spri.kr/posts?code=sw_reports",
+    "pages": 3,
+    "count": 34,
+    "page_param": "data_page"
+  },
+  "archive": {
+    "name": "이전 간행물",
+    "url": "https://spri.kr/posts?code=archive",
+    "pages": 3,
+    "count": 29,
+    "page_param": "data_page"
+  },
+  "conference|flg1": {
+    "name": "전체행사",
+    "url": "https://spri.kr/posts?code=conference&flg=1",
+    "pages": 24,
+    "count": 284,
+    "page_param": "page"
+  },
+  "conference": {
+    "name": "컨퍼런스",
+    "url": "https://spri.kr/posts?code=conference",
+    "pages": 5,
+    "count": 60,
+    "page_param": "page"
+  },
+  "forum": {
+    "name": "포럼",
+    "url": "https://spri.kr/posts?code=forum",
+    "pages": 7,
+    "count": 83,
+    "page_param": "page"
+  },
+  "speech": {
+    "name": "세미나",
+    "url": "https://spri.kr/posts?code=speech",
+    "pages": 12,
+    "count": 141,
+    "page_param": "page"
+  },
+  "notice": {
+    "name": "공지사항",
+    "url": "https://spri.kr/posts?code=notice",
+    "pages": 39,
+    "count": 458,
+    "page_param": "page"
+  },
+  "data_all|flg1": {
+    "name": "연구",
+    "url": "https://spri.kr/posts?code=data_all&flg=1",
+    "pages": 132,
+    "count": 1582,
+    "page_param": "data_page"
+  }
+}
